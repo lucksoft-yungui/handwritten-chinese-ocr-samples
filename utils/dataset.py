@@ -16,7 +16,7 @@ import torchvision.transforms as transforms
 
 
 class ImageDataset(Dataset):
-    def __init__(self, data_path: str, img_shape: tuple, phase: str, batch_size=1):
+    def __init__(self, data_path: str, data_label_path: str, data_file_name: str, img_shape: tuple, phase: str, batch_size=1):
         super(ImageDataset, self).__init__()
         if not (phase in ['train', 'val', 'test']):
             raise AssertionError(phase)
@@ -28,11 +28,12 @@ class ImageDataset(Dataset):
         self.phase = phase
         self.batch_size = batch_size
 
-        img_id_gt_txt = os.path.join(data_path, phase + '_img_id_gt.txt')
+        img_id_gt_txt = os.path.join(data_label_path, data_file_name + "_" + phase + ".txt")
+
         with open(img_id_gt_txt, 'r', encoding='utf-8') as f:
             for line in f.readlines():
-                line = line.strip('\n').split(',', 1)
-                img_path = os.path.join(data_path, phase, line[0])
+                line = line.strip('\n').split(None, 1)
+                img_path = os.path.join(data_path, line[0])
                 if os.path.exists(img_path) and os.stat(img_path).st_size > 0 and line[1]:
                     self.data_list.append((img_path, line[1]))
 

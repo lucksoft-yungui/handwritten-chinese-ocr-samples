@@ -1,0 +1,957 @@
+chineseocr-data/config/digit/15/17864.jpg	25 90.7℃≠27.47
+chineseocr-data/config/digit/7/11743.jpg	256kva=14541
+chineseocr-data/config/digit/26/25932.jpg	8 67965kv a≤8922
+chineseocr-data/config/digit/80/67635.jpg	2839±>=9..5
+chineseocr-data/config/digit/13/15959.jpg	5.8.ρ≠977
+chineseocr-data/config/digit/64/55130.jpg	44178.mva≥500.00
+chineseocr-data/config/digit/50/44762.jpg	6335.62mva|536..82
+chineseocr-data/config/digit/50/44629.jpg	657927b<784
+chineseocr-data/config/digit/13/4970.jpg	711724℃≥9621690
+chineseocr-data/config/digit/4/9659.jpg	7946692~.36586
+chineseocr-data/config/digit/84/70984.jpg	71222m²>=2178770
+chineseocr-data/config/digit/69/59459.jpg	12188mva<784907
+chineseocr-data/config/digit/49/43637.jpg	.654053kva=797
+chineseocr-data/config/digit/12/4720.jpg	00558889
+chineseocr-data/config/digit/51/45242.jpg	820ρ|2383167
+chineseocr-data/config/digit/100/83559.jpg	236kva~403784
+chineseocr-data/config/digit/66/56665.jpg	.45019>84980
+chineseocr-data/config/digit/1/7303.jpg	9629836~05.362
+chineseocr-data/config/digit/39/36274.jpg	5.30591mva=342
+chineseocr-data/config/digit/2/909.jpg	343μm|923813
+chineseocr-data/config/digit/12/15619.jpg	3.26866mva~746195
+chineseocr-data/config/digit/0/5992.jpg	181μm>=37998
+chineseocr-data/config/digit/57/50176.jpg	50.86±|4762
+chineseocr-data/config/digit/13/16056.jpg	76233m>=..0932
+chineseocr-data/config/digit/49/43862.jpg	2654.5|5335.
+chineseocr-data/config/digit/106/88085.jpg	1820m²~93094
+chineseocr-data/config/digit/41/37935.jpg	7817861~560
+chineseocr-data/config/digit/116/95649.jpg	.9.71m. 947955
+chineseocr-data/config/digit/41/37434.jpg	70249kva >=4.319.9
+chineseocr-data/config/digit/19/20660.jpg	462℃<68181
+chineseocr-data/config/digit/78/65992.jpg	6909.0Φ792
+chineseocr-data/config/digit/32/30785.jpg	390бb≠65.934
+chineseocr-data/config/digit/90/75811.jpg	5714kva>=3229529
+chineseocr-data/config/digit/32/30796.jpg	3.1258±7875180
+chineseocr-data/config/digit/103/85648.jpg	9932.10㎡|993204
+chineseocr-data/config/digit/39/36045.jpg	7.4μm≤214907
+chineseocr-data/config/digit/90/75774.jpg	308902m²=982
+chineseocr-data/config/digit/80/68005.jpg	753625бb>134348
+chineseocr-data/config/digit/109/90674.jpg	325126 9μm <37520
+chineseocr-data/config/digit/59/51906.jpg	94935.kva≠.985 74
+chineseocr-data/config/digit/106/88164.jpg	6330754m²|496
+chineseocr-data/config/digit/65/56359.jpg	.20<=56632
+chineseocr-data/config/digit/108/89627.jpg	7775mva=087940.
+chineseocr-data/config/digit/79/67325.jpg	11129.8m>3505
+chineseocr-data/config/digit/85/71984.jpg	9141 mva>40 7049
+chineseocr-data/config/digit/5/9998.jpg	301.бb>6412
+chineseocr-data/config/digit/9/12740.jpg	6034m>.2 4735
+chineseocr-data/config/digit/48/43425.jpg	7111μm|57769
+chineseocr-data/config/digit/88/74194.jpg	51.9219mva|0294
+chineseocr-data/config/digit/70/59807.jpg	98744.465 473
+chineseocr-data/config/digit/15/17463.jpg	.188.37m²~ 99 7786
+chineseocr-data/config/digit/48/43124.jpg	423μ m≠056
+chineseocr-data/config/digit/85/71770.jpg	622ρ 9127
+chineseocr-data/config/digit/56/49147.jpg	3.77бb>=963
+chineseocr-data/config/digit/97/80798.jpg	83933>0..
+chineseocr-data/config/digit/3/8450.jpg	.32kva≤99.
+chineseocr-data/config/digit/11/4246.jpg	914≤4767839
+chineseocr-data/config/digit/93/78246.jpg	30.2681<=5 66
+chineseocr-data/config/digit/5/10117.jpg	9427℃≈787928
+chineseocr-data/config/digit/50/44773.jpg	870.87mva≠538
+chineseocr-data/config/digit/68/58700.jpg	2058μm≥2912
+chineseocr-data/config/digit/47/42738.jpg	6494578m²=81573
+chineseocr-data/config/digit/27/26626.jpg	98 67518kva>043130
+chineseocr-data/config/digit/28/27378.jpg	4950±>=4.7
+chineseocr-data/config/digit/6/11108.jpg	1.77930бb≥844
+chineseocr-data/config/digit/97/80716.jpg	..5942бb≠ 18.884
+chineseocr-data/config/digit/89/75142.jpg	2721 19|5.90372
+chineseocr-data/config/digit/19/20954.jpg	6933 62Φ≈ 8886167
+chineseocr-data/config/digit/68/58453.jpg	021937Φ|1274038
+chineseocr-data/config/digit/64/55473.jpg	030..7ρ>=1222095
+chineseocr-data/config/digit/56/49271.jpg	53238|461233
+chineseocr-data/config/digit/94/78403.jpg	.538μm<=113
+chineseocr-data/config/digit/0/6153.jpg	65.90 5.бb≈910997
+chineseocr-data/config/digit/78/65945.jpg	949516|282.557
+chineseocr-data/config/digit/87/73091.jpg	2 5513m>9029
+chineseocr-data/config/digit/92/76847.jpg	8.193.>=80.1069
+chineseocr-data/config/digit/43/39357.jpg	221m²≤.7.02
+chineseocr-data/config/digit/61/52816.jpg	46741μm≤52179.
+chineseocr-data/config/digit/72/61432.jpg	0730 |098
+chineseocr-data/config/digit/105/86896.jpg	142390mva >=679
+chineseocr-data/config/digit/104/86532.jpg	78714бb>0233 57
+chineseocr-data/config/digit/33/31599.jpg	9251m²0532505
+chineseocr-data/config/digit/78/66495.jpg	.1645 0±<.37
+chineseocr-data/config/digit/86/72865.jpg	726.0 4.b>=012
+chineseocr-data/config/digit/6/10737.jpg	2376±=5 4.47.3
+chineseocr-data/config/digit/109/90030.jpg	056kva|3475 20
+chineseocr-data/config/digit/19/20426.jpg	09827>266
+chineseocr-data/config/digit/112/92254.jpg	90281mva≈83303
+chineseocr-data/config/digit/63/54953.jpg	502m²~49174
+chineseocr-data/config/digit/36/33611.jpg	408682±≠42854
+chineseocr-data/config/digit/104/86244.jpg	26626m²>4 39303
+chineseocr-data/config/digit/89/74640.jpg	362453b021
+chineseocr-data/config/digit/25/25396.jpg	43316± <=74647
+chineseocr-data/config/digit/62/54183.jpg	7320.0бb<=.684
+chineseocr-data/config/digit/28/27847.jpg	6050b =. 6.
+chineseocr-data/config/digit/110/91041.jpg	66.7615b10236
+chineseocr-data/config/digit/45/40868.jpg	1.7584kva57792 6
+chineseocr-data/config/digit/99/82457.jpg	812±<.492
+chineseocr-data/config/digit/105/87240.jpg	4059  mv a≈7579
+chineseocr-data/config/digit/50/44973.jpg	65228b ~89822
+chineseocr-data/config/digit/34/32614.jpg	2096|0153
+chineseocr-data/config/digit/102/85064.jpg	9441Ρ<264
+chineseocr-data/config/digit/93/78045.jpg	087115бb|477179.
+chineseocr-data/config/digit/56/49389.jpg	5547735b>.925
+chineseocr-data/config/digit/96/80480.jpg	.70бb<=7.5
+chineseocr-data/config/digit/19/20429.jpg	417|.57471
+chineseocr-data/config/digit/32/30485.jpg	2838mv a>8507.
+chineseocr-data/config/digit/97/81416.jpg	9369.92Φ≥3718
+chineseocr-data/config/digit/37/34544.jpg	1147Φ|61.2
+chineseocr-data/config/digit/22/23296.jpg	867ρ<=3183253
+chineseocr-data/config/digit/85/71693.jpg	035544 m²| 62070.0
+chineseocr-data/config/digit/95/79528.jpg	362.0бb=2721. 7
+chineseocr-data/config/digit/37/34815.jpg	69008  mva.977271
+chineseocr-data/config/digit/16/18280.jpg	94800Φ|9326
+chineseocr-data/config/digit/62/54077.jpg	422±≠87.8
+chineseocr-data/config/digit/2/7946.jpg	336.~5 264.5
+chineseocr-data/config/digit/109/90346.jpg	2905mva=06684
+chineseocr-data/config/digit/104/86732.jpg	984903~447
+chineseocr-data/config/digit/16/18618.jpg	180055m²≤685 25
+chineseocr-data/config/digit/64/55367.jpg	403>=098.
+chineseocr-data/config/digit/75/64197.jpg	149982m=.170.6
+chineseocr-data/config/digit/50/45039.jpg	16562m|641
+chineseocr-data/config/digit/48/43415.jpg	19.6℃>=8979
+chineseocr-data/config/digit/25/25379.jpg	8986>=9.42172
+chineseocr-data/config/digit/37/34340.jpg	5796692mva<541.
+chineseocr-data/config/digit/97/80813.jpg	016.9<8724
+chineseocr-data/config/digit/89/74787.jpg	3759mva>267 5586
+chineseocr-data/config/digit/42/38279.jpg	406.93>137
+chineseocr-data/config/digit/76/64766.jpg	8145mva<= 921298
+chineseocr-data/config/digit/41/37629.jpg	772μm≈.430
+chineseocr-data/config/digit/70/59916.jpg	211..mva≤568
+chineseocr-data/config/digit/29/28295.jpg	.02ρ|2 5 1.36
+chineseocr-data/config/digit/47/42388.jpg	998224±>= 48655
+chineseocr-data/config/digit/50/44603.jpg	45994
+chineseocr-data/config/digit/5/10339.jpg	11..843|.338052
+chineseocr-data/config/digit/8/12183.jpg	8. 0417m=9.19
+chineseocr-data/config/digit/92/77351.jpg	5.55бb≠431308
+chineseocr-data/config/digit/49/43874.jpg	7642513mva<716 638
+chineseocr-data/config/digit/80/67824.jpg	1670<68.711
+chineseocr-data/config/digit/44/39845.jpg	52.856.04422
+chineseocr-data/config/digit/28/27757.jpg	72523 .Φ|482672
+chineseocr-data/config/digit/19/20665.jpg	30.22Φ>922
+chineseocr-data/config/digit/65/55894.jpg	282.0kva≈5.0382
+chineseocr-data/config/digit/92/76895.jpg	0.47m<=729
+chineseocr-data/config/digit/69/59556.jpg	.225>3189
+chineseocr-data/config/digit/3/8606.jpg	303.mva|6.36005
+chineseocr-data/config/digit/110/91137.jpg	.057295 ㎡≠ 905712
+chineseocr-data/config/digit/67/57919.jpg	2799μm≈9.9
+chineseocr-data/config/digit/102/84631.jpg	762mva≥.8662.7
+chineseocr-data/config/digit/91/76360.jpg	67842±~.195790
+chineseocr-data/config/digit/37/34599.jpg	999b42 6921
+chineseocr-data/config/digit/63/54460.jpg	0377Φ~33085
+chineseocr-data/config/digit/84/71168.jpg	3143498mva≠2450887
+chineseocr-data/config/digit/1/6627.jpg	51 13.㎡≈182.34
+chineseocr-data/config/digit/35/33470.jpg	..47±≈07849
+chineseocr-data/config/digit/11/4206.jpg	2.51m²~7060985
+chineseocr-data/config/digit/23/24176.jpg	558.601бb<=7808827
+chineseocr-data/config/digit/109/90616.jpg	783mva824.513
+chineseocr-data/config/digit/69/59079.jpg	7061kva<61779
+chineseocr-data/config/digit/79/67186.jpg	2729±>.2953
+chineseocr-data/config/digit/32/30607.jpg	358b≤953227
+chineseocr-data/config/digit/111/92089.jpg	782kva>=7.142 48
+chineseocr-data/config/digit/63/54996.jpg	174m²<.95
+chineseocr-data/config/digit/104/86190.jpg	.8.03ρ<=546701
+chineseocr-data/config/digit/8/3099.jpg	948≤2 804
+chineseocr-data/config/digit/87/73626.jpg	9108192b|309
+chineseocr-data/config/digit/63/54780.jpg	877068|648 1
+chineseocr-data/config/digit/48/43091.jpg	26751 19 ρ>8.158
+chineseocr-data/config/digit/66/56890.jpg	7571kv a3134358
+chineseocr-data/config/digit/15/17906.jpg	7947474бb≈185
+chineseocr-data/config/digit/6/2377.jpg	7959±=83608
+chineseocr-data/config/digit/68/58479.jpg	986992<0.25
+chineseocr-data/config/digit/20/21814.jpg	48542бb~189.
+chineseocr-data/config/digit/52/45895.jpg	239370μm|24.712
+chineseocr-data/config/digit/43/39594.jpg	720119бb<5572364
+chineseocr-data/config/digit/71/60678.jpg	5972647kva>=3.68 9
+chineseocr-data/config/digit/0/6495.jpg	6968 μm<586
+chineseocr-data/config/digit/100/83731.jpg	955mva8533
+chineseocr-data/config/digit/0/6519.jpg	.54095Φ≠6 522
+chineseocr-data/config/digit/80/67614.jpg	892μm≠03.53
+chineseocr-data/config/digit/12/15591.jpg	4683>=090.44.
+chineseocr-data/config/digit/59/51508.jpg	63.ρ≤30960
+chineseocr-data/config/digit/67/57424.jpg	..6< 3502520
+chineseocr-data/config/digit/101/83840.jpg	01970бb>=561829
+chineseocr-data/config/digit/27/26977.jpg	.736.бb<5593
+chineseocr-data/config/digit/85/71986.jpg	6313138 ℃=6.9 2920
+chineseocr-data/config/digit/6/2406.jpg	46032kva|45 59 280
+chineseocr-data/config/digit/100/83460.jpg	77530|06.688
+chineseocr-data/config/digit/12/15142.jpg	84292933123277
+chineseocr-data/config/digit/47/42355.jpg	8333792m²≤9092
+chineseocr-data/config/digit/26/25852.jpg	5009717kva~8369
+chineseocr-data/config/digit/4/1722.jpg	.20178<1581
+chineseocr-data/config/digit/81/68598.jpg	72.7107ρ≤902
+chineseocr-data/config/digit/16/18754.jpg	2399820±=6137.4
+chineseocr-data/config/digit/71/60951.jpg	.14.62≥.814 3
+chineseocr-data/config/digit/24/24853.jpg	.14 61mva<45.
+chineseocr-data/config/digit/45/40787.jpg	07..82m va~53122
+chineseocr-data/config/digit/110/91221.jpg	3 20657≈40281
+chineseocr-data/config/digit/47/42099.jpg	76318m≈ 668 3722
+chineseocr-data/config/digit/28/27501.jpg	592 271|4579417
+chineseocr-data/config/digit/95/79399.jpg	948103~9207.08
+chineseocr-data/config/digit/76/65066.jpg	69797kva|  5030021
+chineseocr-data/config/digit/24/24945.jpg	6.50±≤  51.978 8
+chineseocr-data/config/digit/67/58088.jpg	878349m²~25957
+chineseocr-data/config/digit/96/79973.jpg	.7246.019
+chineseocr-data/config/digit/78/65928.jpg	534852mva≤5 9986
+chineseocr-data/config/digit/3/1199.jpg	126.899℃< 228
+chineseocr-data/config/digit/11/14617.jpg	7870<=4 2.7481
+chineseocr-data/config/digit/81/68519.jpg	112mva|7 4967
+chineseocr-data/config/digit/96/80063.jpg	19917 4175.4
+chineseocr-data/config/digit/73/62780.jpg	4 033b≥370099 5
+chineseocr-data/config/digit/51/45735.jpg	82557Φ| 3.402 9
+chineseocr-data/config/digit/92/77493.jpg	45477.6≈130
+chineseocr-data/config/digit/67/58162.jpg	5476117<827.
+chineseocr-data/config/digit/27/26800.jpg	234μm≠.83.577
+chineseocr-data/config/digit/114/93948.jpg	.35бb≈747
+chineseocr-data/config/digit/6/10450.jpg	2830kva<=60732
+chineseocr-data/config/digit/78/66047.jpg	15.5<65570
+chineseocr-data/config/digit/59/51556.jpg	1588b<1 988.95
+chineseocr-data/config/digit/6/10627.jpg	01. 8. Φ≠15.
+chineseocr-data/config/digit/108/89361.jpg	51094 .mva<=22..25
+chineseocr-data/config/digit/98/82123.jpg	84636<9194
+chineseocr-data/config/digit/60/52476.jpg	5314ρ≤5450124
+chineseocr-data/config/digit/19/20833.jpg	6626|590 5
+chineseocr-data/config/digit/9/3841.jpg	2898 mva>=76895
+chineseocr-data/config/digit/43/39629.jpg	3.5592.бb=077
+chineseocr-data/config/digit/81/68527.jpg	6715±≥132464
+chineseocr-data/config/digit/40/37068.jpg	407kva0950.7
+chineseocr-data/config/digit/73/62734.jpg	7756051Φ≠4322
+chineseocr-data/config/digit/90/75868.jpg	.277648ρ≥12 .2
+chineseocr-data/config/digit/104/86514.jpg	0 7635μm|798 83
+chineseocr-data/config/digit/85/71952.jpg	3..30mva<=19013
+chineseocr-data/config/digit/55/48917.jpg	5369884ρ>..5757
+chineseocr-data/config/digit/74/63255.jpg	0604ρ<7 9728
+chineseocr-data/config/digit/8/3179.jpg	823.6 mva≠.4 0391
+chineseocr-data/config/digit/98/82187.jpg	617 3≠6374940
+chineseocr-data/config/digit/14/16993.jpg	7077<=54266
+chineseocr-data/config/digit/12/15540.jpg	9439416μ m=79 . 0
+chineseocr-data/config/digit/58/51044.jpg	60212 8μm~456
+chineseocr-data/config/digit/24/24833.jpg	972778μm>=445
+chineseocr-data/config/digit/6/11011.jpg	.155.8848.
+chineseocr-data/config/digit/55/48470.jpg	454μm87 13892
+chineseocr-data/config/digit/91/76185.jpg	38411=7.930
+chineseocr-data/config/digit/48/43266.jpg	378 4.88kv a<05.3980
+chineseocr-data/config/digit/10/4063.jpg	212>99773
+chineseocr-data/config/digit/5/2199.jpg	7117±>.924537
+chineseocr-data/config/digit/80/67939.jpg	1572㎡|416645
+chineseocr-data/config/digit/18/20017.jpg	746kva≥846710
+chineseocr-data/config/digit/65/56275.jpg	554..90mva≈5523
+chineseocr-data/config/digit/93/78291.jpg	6759.72μm≈133
+chineseocr-data/config/digit/37/34478.jpg	5507<=84901
+chineseocr-data/config/digit/52/46389.jpg	1004.61±<99481
+chineseocr-data/config/digit/100/83189.jpg	33.b33405
+chineseocr-data/config/digit/93/77705.jpg	550b<883
+chineseocr-data/config/digit/84/70676.jpg	4775±=298570.
+chineseocr-data/config/digit/46/41791.jpg	580024≥418
+chineseocr-data/config/digit/79/67246.jpg	81 57<77.20
+chineseocr-data/config/digit/74/63124.jpg	1966kva073695
+chineseocr-data/config/digit/81/68526.jpg	42 . 0m²~0545 7
+chineseocr-data/config/digit/0/288.jpg	46158<=5 03
+chineseocr-data/config/digit/115/95090.jpg	951ρ~615.0.5
+chineseocr-data/config/digit/12/15791.jpg	1411844711
+chineseocr-data/config/digit/50/44374.jpg	8132.0≤2.7854
+chineseocr-data/config/digit/80/67946.jpg	51 909m>= 952914
+chineseocr-data/config/digit/42/38305.jpg	374±~321
+chineseocr-data/config/digit/15/17703.jpg	690931<8354
+chineseocr-data/config/digit/68/58763.jpg	5584ρ<774
+chineseocr-data/config/digit/12/15052.jpg	8233619 kva<=124
+chineseocr-data/config/digit/88/73973.jpg	390㎡> 6719193
+chineseocr-data/config/digit/82/69121.jpg	.7085μm=11443
+chineseocr-data/config/digit/89/74620.jpg	653бb=61 66
+chineseocr-data/config/digit/56/49181.jpg	17.m=.28
+chineseocr-data/config/digit/40/36793.jpg	070018m=7733
+chineseocr-data/config/digit/3/8214.jpg	19.2ρ≈28.0106
+chineseocr-data/config/digit/93/77957.jpg	580491 4>=797180
+chineseocr-data/config/digit/12/15486.jpg	9611088m >5581.
+chineseocr-data/config/digit/82/69391.jpg	705m> 376
+chineseocr-data/config/digit/77/65789.jpg	431947<565357
+chineseocr-data/config/digit/14/17291.jpg	3730<=069
+chineseocr-data/config/digit/7/11624.jpg	2278026m²=51909 .
+chineseocr-data/config/digit/89/74713.jpg	0836ρ>=61234
+chineseocr-data/config/digit/9/12949.jpg	8664=55 7946
+chineseocr-data/config/digit/70/59981.jpg	364 55.kva<7309
+chineseocr-data/config/digit/93/78304.jpg	519613 2=6 2.237
+chineseocr-data/config/digit/77/65861.jpg	5 8098.. ℃≤2.02.3
+chineseocr-data/config/digit/43/38998.jpg	84 122>=.493419
+chineseocr-data/config/digit/14/16700.jpg	30.5m²~208766
+chineseocr-data/config/digit/42/38318.jpg	3655418μm>5632
+chineseocr-data/config/digit/57/49789.jpg	34902189
+chineseocr-data/config/digit/5/10270.jpg	362 .0.7ρ≠6089248
+chineseocr-data/config/digit/0/6582.jpg	8435b>93569
+chineseocr-data/config/digit/23/24235.jpg	3227092± =0826864
+chineseocr-data/config/digit/91/76090.jpg	334954>= 2.009.2
+chineseocr-data/config/digit/97/81190.jpg	478℃|9 247
+chineseocr-data/config/digit/96/80004.jpg	826671㎡=3991757
+chineseocr-data/config/digit/0/280.jpg	3605 7b69227
+chineseocr-data/config/digit/65/56127.jpg	416m=49684
+chineseocr-data/config/digit/88/73935.jpg	11.0125kva~89044
+chineseocr-data/config/digit/39/36211.jpg	46.075≠069
+chineseocr-data/config/digit/89/75132.jpg	27434 6ρ|44466.
+chineseocr-data/config/digit/70/60447.jpg	9222106±≈33087
+chineseocr-data/config/digit/61/53535.jpg	280μm≥198
+chineseocr-data/config/digit/116/95571.jpg	42108Φ=813
+chineseocr-data/config/digit/24/24905.jpg	59888.3m²≠2222625
+chineseocr-data/config/digit/78/66518.jpg	73.747m²=03 96104
+chineseocr-data/config/digit/20/21683.jpg	142Φ<=305
+chineseocr-data/config/digit/28/27974.jpg	691kva>=703
+chineseocr-data/config/digit/27/27027.jpg	290135kva =0.9548
+chineseocr-data/config/digit/46/41630.jpg	325.735.2152
+chineseocr-data/config/digit/97/81212.jpg	000m²792
+chineseocr-data/config/digit/3/8676.jpg	49413бb<=2372
+chineseocr-data/config/digit/71/61023.jpg	809778997
+chineseocr-data/config/digit/95/79532.jpg	623=.38.89
+chineseocr-data/config/digit/26/26192.jpg	596>72612.
+chineseocr-data/config/digit/87/73322.jpg	68042.≈3689
+chineseocr-data/config/digit/67/57922.jpg	..63m²>.278
+chineseocr-data/config/digit/54/47777.jpg	37.31.2<=6307501
+chineseocr-data/config/digit/24/24672.jpg	707.75b=47.
+chineseocr-data/config/digit/65/56526.jpg	3868235b<5927600
+chineseocr-data/config/digit/36/34271.jpg	1259.1±≠805
+chineseocr-data/config/digit/7/11524.jpg	.1311.6бb<1963693
+chineseocr-data/config/digit/1/7241.jpg	73 01615b≥7.05
+chineseocr-data/config/digit/75/63920.jpg	195 043±>60263
+chineseocr-data/config/digit/41/37412.jpg	55195≤237313
+chineseocr-data/config/digit/36/33545.jpg	1639m²|689
+chineseocr-data/config/digit/17/18883.jpg	896 7622
+chineseocr-data/config/digit/66/57142.jpg	57.39kva≈252652
+chineseocr-data/config/digit/96/80311.jpg	566<= 9416
+chineseocr-data/config/digit/27/27325.jpg	6.80024≠361
+chineseocr-data/config/digit/112/92308.jpg	90950.kva|5.04
+chineseocr-data/config/digit/100/83569.jpg	161 94±<=9134
+chineseocr-data/config/digit/4/1719.jpg	3811172 Φ≤34950
+chineseocr-data/config/digit/50/44992.jpg	6108<=304
+chineseocr-data/config/digit/10/13953.jpg	85.232±26606
+chineseocr-data/config/digit/38/35374.jpg	4031 0 6±≥2531
+chineseocr-data/config/digit/67/57472.jpg	4141.3m≥3 1 976
+chineseocr-data/config/digit/11/4389.jpg	10.mva≤6149 8
+chineseocr-data/config/digit/2/864.jpg	.63.02299
+chineseocr-data/config/digit/113/93157.jpg	5393mva≠780680
+chineseocr-data/config/digit/24/24349.jpg	1303m va≤58346
+chineseocr-data/config/digit/54/47490.jpg	998~.01940
+chineseocr-data/config/digit/54/47969.jpg	449 19бb≠4046.67
+chineseocr-data/config/digit/22/23352.jpg	2649197℃≠7130
+chineseocr-data/config/digit/106/87649.jpg	7769404ρ~.3409.
+chineseocr-data/config/digit/105/87173.jpg	8423.9b578
+chineseocr-data/config/digit/4/9439.jpg	..50μm>=091
+chineseocr-data/config/digit/102/85152.jpg	6607kva~91124
+chineseocr-data/config/digit/44/39982.jpg	830257.m>=0070
+chineseocr-data/config/digit/83/69831.jpg	.121.6℃612
+chineseocr-data/config/digit/72/61366.jpg	475561m²|56 93628
+chineseocr-data/config/digit/48/43101.jpg	65371b5974622
+chineseocr-data/config/digit/90/75504.jpg	.8...=9.5768
+chineseocr-data/config/digit/87/72921.jpg	8667056mva|7548
+chineseocr-data/config/digit/2/7495.jpg	6 696ρ|00.6 55
+chineseocr-data/config/digit/2/7488.jpg	8...209μm≤ 337780
+chineseocr-data/config/digit/60/52537.jpg	261±≈939
+chineseocr-data/config/digit/28/28018.jpg	66639~028
+chineseocr-data/config/digit/108/89182.jpg	7 44 .~97491
+chineseocr-data/config/digit/19/20867.jpg	1845μm≠27123.8
+chineseocr-data/config/digit/15/18049.jpg	77.4m²~549 6182
+chineseocr-data/config/digit/22/23425.jpg	912417.b>8217145
+chineseocr-data/config/digit/13/4969.jpg	0262бb≥ 59 028
+chineseocr-data/config/digit/69/59406.jpg	68.m≠118990
+chineseocr-data/config/digit/81/68411.jpg	.5664kva≈130 7436
+chineseocr-data/config/digit/79/67114.jpg	4679315
+chineseocr-data/config/digit/9/3778.jpg	17 603m²<=968
+chineseocr-data/config/digit/78/66436.jpg	0 754216бb≠751.
+chineseocr-data/config/digit/62/54134.jpg	5.421420937630
+chineseocr-data/config/digit/84/71156.jpg	36006m²=054
+chineseocr-data/config/digit/82/69597.jpg	.804700kva|5238.79
+chineseocr-data/config/digit/38/35563.jpg	7510℃<=74210
+chineseocr-data/config/digit/10/4179.jpg	08817.9kva 427940
+chineseocr-data/config/digit/0/159.jpg	944.Φ>396
+chineseocr-data/config/digit/115/94805.jpg	516m²=1368775
+chineseocr-data/config/digit/26/25813.jpg	4367>=1615632
+chineseocr-data/config/digit/59/51838.jpg	9842Φ|00521 .
+chineseocr-data/config/digit/27/26924.jpg	2.462mva9.3722
+chineseocr-data/config/digit/80/67586.jpg	.98665≤33.1
+chineseocr-data/config/digit/28/28118.jpg	.09±.841
+chineseocr-data/config/digit/96/80303.jpg	66685827135
+chineseocr-data/config/digit/33/31781.jpg	230kva≤322
+chineseocr-data/config/digit/76/64796.jpg	9.06.358739.3
+chineseocr-data/config/digit/84/70607.jpg	5.4 4±≤1028 28
+chineseocr-data/config/digit/13/16272.jpg	333Φ|74.9.
+chineseocr-data/config/digit/96/80042.jpg	95017μm 8121
+chineseocr-data/config/digit/45/40485.jpg	15618=.743
+chineseocr-data/config/digit/41/37770.jpg	6 1. 3бb<=5905.20
+chineseocr-data/config/digit/50/44966.jpg	14.270<31 95737
+chineseocr-data/config/digit/68/58943.jpg	..229mva49766
+chineseocr-data/config/digit/44/40302.jpg	69770kv a430109
+chineseocr-data/config/digit/102/84981.jpg	01644±≥222722
+chineseocr-data/config/digit/85/71874.jpg	62791±|52904
+chineseocr-data/config/digit/71/60540.jpg	44150±<6191
+chineseocr-data/config/digit/45/40601.jpg	0747 480kva>602 3
+chineseocr-data/config/digit/106/88290.jpg	474>=1 3.
+chineseocr-data/config/digit/64/55285.jpg	4422<06058
+chineseocr-data/config/digit/18/19783.jpg	023μm<=.0984
+chineseocr-data/config/digit/27/27310.jpg	7025mva<=925
+chineseocr-data/config/digit/98/81651.jpg	.7.3922m|65706
+chineseocr-data/config/digit/5/10439.jpg	81926 mva>82543
+chineseocr-data/config/digit/68/58364.jpg	2.1℃≈39943
+chineseocr-data/config/digit/49/43870.jpg	71.m>730
+chineseocr-data/config/digit/27/27076.jpg	38894.6kva≠921684
+chineseocr-data/config/digit/60/52595.jpg	61.0kva=76673
+chineseocr-data/config/digit/28/27881.jpg	0396Φ≈865
+chineseocr-data/config/digit/17/19514.jpg	740189886557
+chineseocr-data/config/digit/65/56106.jpg	230499ρ<=66704 31
+chineseocr-data/config/digit/11/4220.jpg	8872m²~306
+chineseocr-data/config/digit/107/88760.jpg	911m²<=353
+chineseocr-data/config/digit/31/30041.jpg	03898ρ<=270
+chineseocr-data/config/digit/65/56090.jpg	..420m²=9528
+chineseocr-data/config/digit/5/2220.jpg	1222ρ~492 341
+chineseocr-data/config/digit/37/34862.jpg	879871<42.2.
+chineseocr-data/config/digit/12/4595.jpg	665721±<7605
+chineseocr-data/config/digit/28/27763.jpg	126367m² >020 023
+chineseocr-data/config/digit/9/3657.jpg	.2631664 1
+chineseocr-data/config/digit/26/26129.jpg	3 74.843℃≠1.23451
+chineseocr-data/config/digit/49/44139.jpg	96 3414<7951.0
+chineseocr-data/config/digit/33/31332.jpg	699198ρ≠6915604
+chineseocr-data/config/digit/100/83200.jpg	5923568℃>344439
+chineseocr-data/config/digit/58/51110.jpg	643 m² ~62.1
+chineseocr-data/config/digit/9/13165.jpg	912160±<.00.2
+chineseocr-data/config/digit/16/18581.jpg	8139B5791.75
+chineseocr-data/config/digit/96/79952.jpg	33393mva≈.78 6374
+chineseocr-data/config/digit/92/77349.jpg	.983327μm|.1815
+chineseocr-data/config/digit/115/94690.jpg	8518030±≠ 842.
+chineseocr-data/config/digit/88/74191.jpg	9 634±>=862191
+chineseocr-data/config/digit/18/20353.jpg	503~81 56
+chineseocr-data/config/digit/14/5602.jpg	70443<.24.28
+chineseocr-data/config/digit/44/40400.jpg	75.>=26585
+chineseocr-data/config/digit/23/23915.jpg	4130~23 12
+chineseocr-data/config/digit/45/40828.jpg	54534m²462315
+chineseocr-data/config/digit/105/87457.jpg	1715|583
+chineseocr-data/config/digit/13/16515.jpg	2744kva=.012..
+chineseocr-data/config/digit/69/59094.jpg	757.19ρ|31.
+chineseocr-data/config/digit/15/17961.jpg	2.790>330.
+chineseocr-data/config/digit/51/45692.jpg	58.26m88841
+chineseocr-data/config/digit/76/64758.jpg	8006 8kva<=556103.
+chineseocr-data/config/digit/106/88086.jpg	40598m²|.70
+chineseocr-data/config/digit/32/30760.jpg	0661.58≠51245
+chineseocr-data/config/digit/51/45247.jpg	539>=6906
+chineseocr-data/config/digit/61/53220.jpg	345kva<=402.345
+chineseocr-data/config/digit/63/54975.jpg	5479658kva29756.
+chineseocr-data/config/digit/101/84291.jpg	84 6≥933.
+chineseocr-data/config/digit/29/28274.jpg	60462бb≤747
+chineseocr-data/config/digit/35/32821.jpg	.6 6372784
+chineseocr-data/config/digit/55/48691.jpg	768.±≤59434
+chineseocr-data/config/digit/29/28755.jpg	734.2±.193.
+chineseocr-data/config/digit/12/4750.jpg	404㎡ <976
+chineseocr-data/config/digit/8/12658.jpg	6330 2.8kva≥767
+chineseocr-data/config/digit/47/42449.jpg	54 0±979 906
+chineseocr-data/config/digit/3/1184.jpg	.28<=1.3
+chineseocr-data/config/digit/71/61025.jpg	13329±>=2.2328
+chineseocr-data/config/digit/55/48650.jpg	.88520m²~37 1
+chineseocr-data/config/digit/102/85010.jpg	526 82μm~..02114
+chineseocr-data/config/digit/7/11889.jpg	3592801kva228
+chineseocr-data/config/digit/96/80341.jpg	9479mva|439
+chineseocr-data/config/digit/1/7179.jpg	0 7.8.58Φ|2557 258
+chineseocr-data/config/digit/45/41007.jpg	.35mv a≥.002
+chineseocr-data/config/digit/24/24389.jpg	932.|185.
+chineseocr-data/config/digit/41/37425.jpg	5582b49623
+chineseocr-data/config/digit/86/72635.jpg	44... b<215
+chineseocr-data/config/digit/24/24666.jpg	4035b<2 62346
+chineseocr-data/config/digit/6/10826.jpg	4024170830803
+chineseocr-data/config/digit/11/14929.jpg	544ρ≈002
+chineseocr-data/config/digit/43/39074.jpg	377.16 6m²|271908.
+chineseocr-data/config/digit/90/75471.jpg	293168m= 0769
+chineseocr-data/config/digit/83/69900.jpg	50300.8580
+chineseocr-data/config/digit/75/63583.jpg	28310kva≈9517731
+chineseocr-data/config/digit/16/18603.jpg	255016m=6.45
+chineseocr-data/config/digit/99/82791.jpg	083±|4442169
+chineseocr-data/config/digit/115/94679.jpg	7015kva≤016 9
+chineseocr-data/config/digit/80/68187.jpg	050mv a<=5380
+chineseocr-data/config/digit/12/15047.jpg	956kva=602
+chineseocr-data/config/digit/79/67295.jpg	.401789ρ~360.871
+chineseocr-data/config/digit/32/31023.jpg	28031762079200
+chineseocr-data/config/digit/73/62644.jpg	67.9>=.38
+chineseocr-data/config/digit/87/73372.jpg	691.8kva<=6969
+chineseocr-data/config/digit/13/5144.jpg	5 .04m²345
+chineseocr-data/config/digit/91/76463.jpg	96090|276675
+chineseocr-data/config/digit/62/54147.jpg	424027 2mva3021654
+chineseocr-data/config/digit/18/20063.jpg	004730404487 . 3
+chineseocr-data/config/digit/14/5362.jpg	97100≠34.4
+chineseocr-data/config/digit/18/19969.jpg	52 538μm| 369
+chineseocr-data/config/digit/57/50124.jpg	602>9005 6
+chineseocr-data/config/digit/32/30498.jpg	1872.318906
+chineseocr-data/config/digit/13/15903.jpg	87 2±>4 52414 .
+chineseocr-data/config/digit/44/40466.jpg	033μm=85030
+chineseocr-data/config/digit/28/27970.jpg	44733>=68003
+chineseocr-data/config/digit/68/58801.jpg	42083197022.1
+chineseocr-data/config/digit/10/3996.jpg	835>=743748
+chineseocr-data/config/digit/35/33365.jpg	6 720084ρ~6894
+chineseocr-data/config/digit/44/39988.jpg	5723бb≈7 017
+chineseocr-data/config/digit/112/92469.jpg	144m=2614
+chineseocr-data/config/digit/109/90038.jpg	2..4=1317
+chineseocr-data/config/digit/68/58790.jpg	3.0054~267
+chineseocr-data/config/digit/59/51499.jpg	8373|2257
+chineseocr-data/config/digit/35/33053.jpg	61454m27 8
+chineseocr-data/config/digit/63/54398.jpg	82960±=6871.7
+chineseocr-data/config/digit/51/45157.jpg	39205.6b5 9732
+chineseocr-data/config/digit/112/92574.jpg	37258|52. 33
+chineseocr-data/config/digit/3/8776.jpg	927m²>=55505
+chineseocr-data/config/digit/15/5727.jpg	8807бb≠21.759
+chineseocr-data/config/digit/45/40504.jpg	.851.ρ≈51195
+chineseocr-data/config/digit/105/87460.jpg	6662=969
+chineseocr-data/config/digit/107/88800.jpg	7219815
+chineseocr-data/config/digit/54/47822.jpg	.81009≠0005
+chineseocr-data/config/digit/64/55553.jpg	538.бb≤.88584.
+chineseocr-data/config/digit/25/25288.jpg	1465 0±<528336
+chineseocr-data/config/digit/110/90884.jpg	5.271бb=92 57658
+chineseocr-data/config/digit/102/84855.jpg	752μm>738.94
+chineseocr-data/config/digit/76/64997.jpg	0947708kva465
+chineseocr-data/config/digit/82/69646.jpg	976|2858146
+chineseocr-data/config/digit/111/91490.jpg	8.937417046
+chineseocr-data/config/digit/27/26954.jpg	96.3≈5 58.15
+chineseocr-data/config/digit/44/40436.jpg	3597mva>=05100
+chineseocr-data/config/digit/15/17374.jpg	4820333m<64791
+chineseocr-data/config/digit/26/26369.jpg	0154Φ>=47 .6.70
+chineseocr-data/config/digit/31/29765.jpg	906ρ>=3081 92 9
+chineseocr-data/config/digit/11/4332.jpg	55927.kv a< 117117
+chineseocr-data/config/digit/25/25065.jpg	716m²≤ 651023
+chineseocr-data/config/digit/66/57303.jpg	3 1105b9.0.6
+chineseocr-data/config/digit/12/15068.jpg	4765бb>=918656
+chineseocr-data/config/digit/14/17040.jpg	679~6287633
+chineseocr-data/config/digit/0/322.jpg	1143 0>99084
+chineseocr-data/config/digit/21/22575.jpg	12647<=90.1870
+chineseocr-data/config/digit/77/65237.jpg	17763>=89735
+chineseocr-data/config/digit/20/21716.jpg	038732kva=99911
+chineseocr-data/config/digit/32/30743.jpg	04.12 μm≈77.6
+chineseocr-data/config/digit/52/46211.jpg	906399Φ≤ 21950.
+chineseocr-data/config/digit/51/45169.jpg	060558mva≥1029
+chineseocr-data/config/digit/3/8704.jpg	9623198 9 29
+chineseocr-data/config/digit/7/2710.jpg	1605μm~ 2038
+chineseocr-data/config/digit/86/72455.jpg	7 5828 03
+chineseocr-data/config/digit/100/83324.jpg	01.627±|049595
+chineseocr-data/config/digit/1/7009.jpg	6.7575±69 .240.
+chineseocr-data/config/digit/108/89625.jpg	507439±<0504
+chineseocr-data/config/digit/104/86689.jpg	0973ρ|197
+chineseocr-data/config/digit/54/48141.jpg	9.3544kva =414 340
+chineseocr-data/config/digit/7/11934.jpg	99.4688<351
+chineseocr-data/config/digit/113/92983.jpg	1207kva<7382155
+chineseocr-data/config/digit/35/33326.jpg	2554mva≠08.921
+chineseocr-data/config/digit/75/63986.jpg	187 ℃>=4080
+chineseocr-data/config/digit/85/71853.jpg	24.4 ρ|090
+chineseocr-data/config/digit/75/64037.jpg	61687 m va≠589226
+chineseocr-data/config/digit/62/54260.jpg	497847>=.04.7
+chineseocr-data/config/digit/17/19008.jpg	69806ρ≈15510
+chineseocr-data/config/digit/1/7152.jpg	.77≈169
+chineseocr-data/config/digit/4/9607.jpg	.09564>039875.
+chineseocr-data/config/digit/62/54115.jpg	8364.7μm>=1 978267
+chineseocr-data/config/digit/84/71209.jpg	6.55μm ~.141.4
+chineseocr-data/config/digit/94/78936.jpg	3838369±001
+chineseocr-data/config/digit/92/77180.jpg	2.66726±~18305
+chineseocr-data/config/digit/97/81355.jpg	239>= 8.8069
+chineseocr-data/config/digit/45/41130.jpg	7293.kv a≤4.8148
+chineseocr-data/config/digit/58/50975.jpg	27 .0.mva46326
+chineseocr-data/config/digit/7/2749.jpg	.63бb<=39 212
+chineseocr-data/config/digit/29/28818.jpg	.124<333 65
+chineseocr-data/config/digit/93/78149.jpg	.399 5<=353856
+chineseocr-data/config/digit/85/71797.jpg	027m776641
+chineseocr-data/config/digit/55/48365.jpg	61919±160
+chineseocr-data/config/digit/23/23762.jpg	229.1≈5170
+chineseocr-data/config/digit/113/93091.jpg	161<6427809
+chineseocr-data/config/digit/53/46902.jpg	.73mva~ 8949
+chineseocr-data/config/digit/3/8746.jpg	.70.Φ|.029
+chineseocr-data/config/digit/54/47666.jpg	5050857±4.1253
+chineseocr-data/config/digit/12/4899.jpg	92985㎡≠06184
+chineseocr-data/config/digit/31/30266.jpg	8122807<539 5.
+chineseocr-data/config/digit/40/36881.jpg	124≤386
+chineseocr-data/config/digit/77/65787.jpg	834538 8±>627169
+chineseocr-data/config/digit/95/79478.jpg	380kva~7.2490
+chineseocr-data/config/digit/90/75366.jpg	6493mva~448101
+chineseocr-data/config/digit/54/47555.jpg	910635 mva=568.
+chineseocr-data/config/digit/30/29119.jpg	0 967503≥4033
+chineseocr-data/config/digit/61/52810.jpg	76404μm<112597
+chineseocr-data/config/digit/89/75039.jpg	369502≤.2329
+chineseocr-data/config/digit/30/29298.jpg	29..5.4m|069
+chineseocr-data/config/digit/106/87794.jpg	..4m²< =.341
+chineseocr-data/config/digit/62/53561.jpg	91.921276
+chineseocr-data/config/digit/43/39546.jpg	34.1m²155140
+chineseocr-data/config/digit/106/88093.jpg	9898MVA21876
+chineseocr-data/config/digit/19/20864.jpg	200kv a>387
+chineseocr-data/config/digit/104/86518.jpg	8167kva≠95442
+chineseocr-data/config/digit/14/16908.jpg	.198.0188881
+chineseocr-data/config/digit/110/91394.jpg	010704>755
+chineseocr-data/config/digit/53/46698.jpg	02069b >590899
+chineseocr-data/config/digit/99/82319.jpg	90.935μm<910
+chineseocr-data/config/digit/92/76989.jpg	7032|1601
+chineseocr-data/config/digit/66/57050.jpg	62..7μm>=4379
+chineseocr-data/config/digit/81/68840.jpg	5.6kva3448 6.
+chineseocr-data/config/digit/102/84901.jpg	2 1444kva981
+chineseocr-data/config/digit/113/92976.jpg	7493354 047.
+chineseocr-data/config/digit/115/94937.jpg	3811 m>907 5
+chineseocr-data/config/digit/10/13773.jpg	2183345Φ<=509
+chineseocr-data/config/digit/71/60611.jpg	84.31.2kva>=9770911
+chineseocr-data/config/digit/38/35556.jpg	2796μm|2868582
+chineseocr-data/config/digit/15/18047.jpg	8149бb>16.
+chineseocr-data/config/digit/13/16450.jpg	94258<337.7
+chineseocr-data/config/digit/114/93994.jpg	.932253<=05.
+chineseocr-data/config/digit/114/93743.jpg	130>964 735
+chineseocr-data/config/digit/73/62174.jpg	92549±4583
+chineseocr-data/config/digit/16/18631.jpg	2773591Φ< 35.5 2
+chineseocr-data/config/digit/107/88683.jpg	88690636
+chineseocr-data/config/digit/78/66107.jpg	2337. 22m1630366
+chineseocr-data/config/digit/15/17655.jpg	794~78650 7
+chineseocr-data/config/digit/66/56902.jpg	3..7k va<=583.9
+chineseocr-data/config/digit/102/85154.jpg	86092k va=6.518
+chineseocr-data/config/digit/47/42263.jpg	712m<=294888
+chineseocr-data/config/digit/17/19573.jpg	8980kva=4838
+chineseocr-data/config/digit/61/53159.jpg	9353072m²<=453.8
+chineseocr-data/config/digit/45/40610.jpg	91910.kva~76 732
+chineseocr-data/config/digit/45/40605.jpg	.34b638
+chineseocr-data/config/digit/63/54409.jpg	264893<=69888.9
+chineseocr-data/config/digit/75/63652.jpg	4328Ρ>=1404834
+chineseocr-data/config/digit/38/35177.jpg	286.9 4±< .83684
+chineseocr-data/config/digit/63/54480.jpg	827.Φ|7 33
+chineseocr-data/config/digit/85/71612.jpg	6.65|61.123
+"chineseocr-data/config/digit/64/55871.jpg	8930,64489"
+chineseocr-data/config/digit/6/10462.jpg	89692m²>=12735
+chineseocr-data/config/digit/51/45511.jpg	7.18.9.56441
+chineseocr-data/config/digit/20/21566.jpg	52477.kva<= .584420
+chineseocr-data/config/digit/92/77132.jpg	.34227kva1584
+chineseocr-data/config/digit/34/32043.jpg	93840μm<=870814
+chineseocr-data/config/digit/12/4626.jpg	28252kva>1512.
+chineseocr-data/config/digit/2/1161.jpg	865885mva≈1737968
+chineseocr-data/config/digit/65/56163.jpg	8886±65.
+chineseocr-data/config/digit/83/70027.jpg	017kva2808
+chineseocr-data/config/digit/67/57513.jpg	327.17>266
+chineseocr-data/config/digit/9/12804.jpg	.4 67.3
+chineseocr-data/config/digit/64/55829.jpg	84681>40.9 344
+chineseocr-data/config/digit/12/15606.jpg	3452933<=549 8
+chineseocr-data/config/digit/36/33776.jpg	581±≤.380526
+chineseocr-data/config/digit/67/57475.jpg	78 2 3277 kva.534981
+chineseocr-data/config/digit/100/83163.jpg	6738~5786917
+chineseocr-data/config/digit/63/54448.jpg	2.32145 971
+chineseocr-data/config/digit/93/77623.jpg	.1.7~913
+chineseocr-data/config/digit/65/56236.jpg	1..<=02129
+chineseocr-data/config/digit/115/94906.jpg	33937±<=890
+chineseocr-data/config/digit/60/52689.jpg	8973 5≠1.78627
+chineseocr-data/config/digit/87/73124.jpg	0 69.5бb≤.4309
+chineseocr-data/config/digit/21/22076.jpg	371m²<798854
+chineseocr-data/config/digit/97/81343.jpg	65647 ρ>=749920
+chineseocr-data/config/digit/116/95394.jpg	1479973≠55760
+chineseocr-data/config/digit/109/89959.jpg	9241 .b|980
+chineseocr-data/config/digit/4/1758.jpg	4373909
+chineseocr-data/config/digit/21/22392.jpg	4760kva≥001
+chineseocr-data/config/digit/94/78404.jpg	748745μm≠8358 .84
+chineseocr-data/config/digit/43/39121.jpg	697.08m²<652
+chineseocr-data/config/digit/107/88664.jpg	1535491mva~550.92
+chineseocr-data/config/digit/55/48285.jpg	.22b35. 15
+chineseocr-data/config/digit/68/58860.jpg	643199Φ>617
+chineseocr-data/config/digit/10/14170.jpg	0.4111±=6873
+chineseocr-data/config/digit/48/43524.jpg	12.844 02
+chineseocr-data/config/digit/52/46265.jpg	.87m ²~64311
+chineseocr-data/config/digit/41/37715.jpg	1379±~56816
+chineseocr-data/config/digit/84/70661.jpg	81 4≈ 12143
+chineseocr-data/config/digit/104/86815.jpg	3 183 6бb≥85.
+chineseocr-data/config/digit/77/65514.jpg	019598 4mva0382
+chineseocr-data/config/digit/62/54266.jpg	10605Φ=724
+chineseocr-data/config/digit/41/38016.jpg	046±703
+chineseocr-data/config/digit/35/33111.jpg	83.Φ=041 .5..
+chineseocr-data/config/digit/67/57626.jpg	3365mva=881947
+chineseocr-data/config/digit/75/64323.jpg	074>= 1300134
+chineseocr-data/config/digit/75/63603.jpg	841538~83266
+chineseocr-data/config/digit/91/76114.jpg	1794517ρ >=72793
+chineseocr-data/config/digit/80/67601.jpg	1550m~4 32238 3
+chineseocr-data/config/digit/114/93845.jpg	806..7.℃>=..9
+chineseocr-data/config/digit/19/20427.jpg	136=82 82392
+chineseocr-data/config/digit/79/67251.jpg	554μm<=934978
+chineseocr-data/config/digit/39/35879.jpg	17295Φ<001
+chineseocr-data/config/digit/67/57759.jpg	.5976kv a<153704.
+chineseocr-data/config/digit/26/25966.jpg	5374. mva=60 0
+chineseocr-data/config/digit/14/17033.jpg	56708.6<3519
+chineseocr-data/config/digit/107/88831.jpg	7739бb<0.661
+chineseocr-data/config/digit/0/6303.jpg	8.61.ρ>1.1647
+chineseocr-data/config/digit/69/59096.jpg	08436≤6582
+chineseocr-data/config/digit/7/11750.jpg	590.≤39551
+chineseocr-data/config/digit/7/11596.jpg	080±1.69
+chineseocr-data/config/digit/20/21723.jpg	.66..6μm< =963 .
+chineseocr-data/config/digit/11/14407.jpg	1924± <=1758
+chineseocr-data/config/digit/57/49841.jpg	54 00956m²1928.3
+chineseocr-data/config/digit/103/85664.jpg	0060<896 9.
+chineseocr-data/config/digit/87/73243.jpg	04328 b<=8.423.
+chineseocr-data/config/digit/114/93690.jpg	28.491..487557
+chineseocr-data/config/digit/45/40949.jpg	198m²|..6429
+chineseocr-data/config/digit/105/87105.jpg	3 95822mva87.5 9
+chineseocr-data/config/digit/35/33146.jpg	5708mva|574.4
+chineseocr-data/config/digit/91/76538.jpg	30796m v a≠866722
+chineseocr-data/config/digit/48/43249.jpg	92055340
+chineseocr-data/config/digit/34/32684.jpg	028667.97
+chineseocr-data/config/digit/19/20484.jpg	780 ρ≈3850
+chineseocr-data/config/digit/8/12481.jpg	63 71 860 |586
+chineseocr-data/config/digit/23/23977.jpg	885=468
+chineseocr-data/config/digit/62/53770.jpg	658±≠8.0
+chineseocr-data/config/digit/46/41969.jpg	017kv a≤ 3024
+chineseocr-data/config/digit/71/60501.jpg	5143.92=2172249
+chineseocr-data/config/digit/94/78697.jpg	44479m²>79344
+chineseocr-data/config/digit/66/56806.jpg	47997.9Φ>79.761
+chineseocr-data/config/digit/64/55873.jpg	.6850=5895
+chineseocr-data/config/digit/75/63755.jpg	876790Φ=42.0173
+chineseocr-data/config/digit/0/127.jpg	264kva>0 38
+chineseocr-data/config/digit/41/37454.jpg	76246 6mva≈70122
+chineseocr-data/config/digit/70/60391.jpg	734061034708
+chineseocr-data/config/digit/93/77593.jpg	04761Φ≤.831
+chineseocr-data/config/digit/29/28566.jpg	93819≈39435.
+chineseocr-data/config/digit/64/55393.jpg	325193±= 4760
+chineseocr-data/config/digit/74/63242.jpg	80808 70mva02588 28
+chineseocr-data/config/digit/27/27073.jpg	9625 299±<=  000
+chineseocr-data/config/digit/27/27319.jpg	21878 . ≤58.
+chineseocr-data/config/digit/42/38920.jpg	5022901бb>=6968
+chineseocr-data/config/digit/36/33596.jpg	5401m39769
+chineseocr-data/config/digit/32/30587.jpg	325mva=7797
+chineseocr-data/config/digit/45/40972.jpg	658 56b<64647
+chineseocr-data/config/digit/33/31572.jpg	0.348 91kva >4573
+chineseocr-data/config/digit/78/66517.jpg	.4477.9ρ=7005
+chineseocr-data/config/digit/94/78467.jpg	0.21486159818
+chineseocr-data/config/digit/45/41197.jpg	5671ρ>=9 06
+chineseocr-data/config/digit/75/63808.jpg	44173 08~9804769
+chineseocr-data/config/digit/11/14461.jpg	667m²≠30446
+chineseocr-data/config/digit/1/6751.jpg	1415.8m²≈95.
+chineseocr-data/config/digit/19/20659.jpg	5.933≤52710
+chineseocr-data/config/digit/51/45486.jpg	3453 ㎡~92878
+chineseocr-data/config/digit/44/40274.jpg	7.07±~.1..84
+chineseocr-data/config/digit/15/17351.jpg	3403Φ>.61
+chineseocr-data/config/digit/33/31651.jpg	3183.4>=321
+chineseocr-data/config/digit/50/44972.jpg	79.kva<4977 497
+chineseocr-data/config/digit/85/71641.jpg	5 542<2.894.2
+chineseocr-data/config/digit/18/20070.jpg	8857m²<=4141206
+chineseocr-data/config/digit/2/7718.jpg	1695.ρ<.2 9.
+chineseocr-data/config/digit/7/11357.jpg	2820.50≥506546
+chineseocr-data/config/digit/93/78057.jpg	82.6195m≥72.89
+chineseocr-data/config/digit/50/44709.jpg	8882kva75..
+chineseocr-data/config/digit/11/4530.jpg	.62982±=554
+chineseocr-data/config/digit/7/2719.jpg	72.8>200357
+chineseocr-data/config/digit/32/30875.jpg	547.m|96839
+chineseocr-data/config/digit/104/86830.jpg	27.9226Φ~248614
+chineseocr-data/config/digit/114/94075.jpg	1342℃|730
+chineseocr-data/config/digit/28/27401.jpg	44 8.0±|572. .20
+chineseocr-data/config/digit/84/71331.jpg	.5.961mva=7464
+chineseocr-data/config/digit/31/29876.jpg	943346mv a498
+chineseocr-data/config/digit/34/32421.jpg	3047105Φ≥.463296
+chineseocr-data/config/digit/66/57055.jpg	125683≈496
+chineseocr-data/config/digit/88/74220.jpg	82 01877
+chineseocr-data/config/digit/52/46023.jpg	8554~327
+chineseocr-data/config/digit/11/15008.jpg	325<=6258420
+chineseocr-data/config/digit/35/32972.jpg	958>=584
+chineseocr-data/config/digit/15/17782.jpg	33.5506mva ≥13253
+chineseocr-data/config/digit/86/72886.jpg	6763537μm<63824
+chineseocr-data/config/digit/79/67091.jpg	22.3 5±≠4433144
+chineseocr-data/config/digit/15/17815.jpg	05562±<2 8 5.
+chineseocr-data/config/digit/5/10222.jpg	871605~698.66
+chineseocr-data/config/digit/21/22624.jpg	3.7998733
+chineseocr-data/config/digit/90/75361.jpg	.46 ~8695
+chineseocr-data/config/digit/15/17951.jpg	996kva~.31
+chineseocr-data/config/digit/14/5696.jpg	62156±>4202.6
+chineseocr-data/config/digit/2/7694.jpg	345062бb=.67223
+chineseocr-data/config/digit/107/88785.jpg	6855593~66324 0
+chineseocr-data/config/digit/78/66048.jpg	9.00℃=24 00
+chineseocr-data/config/digit/31/30416.jpg	6032.7492
+chineseocr-data/config/digit/77/65162.jpg	2.5.564<=623.7
+chineseocr-data/config/digit/83/69960.jpg	9.129 2ρ<=195
+chineseocr-data/config/digit/63/55023.jpg	3107 16℃=26283
+chineseocr-data/config/digit/3/8511.jpg	2.5mva55.
+chineseocr-data/config/digit/30/29169.jpg	388 b>559
+chineseocr-data/config/digit/2/7881.jpg	8492319kva>=38572
+chineseocr-data/config/digit/18/20342.jpg	.27ρ≥524677
+chineseocr-data/config/digit/16/18789.jpg	394mva>=0617
+chineseocr-data/config/digit/86/72709.jpg	9.68m va≤91379
+chineseocr-data/config/digit/47/42113.jpg	864mva<09 3881
+chineseocr-data/config/digit/30/29093.jpg	460m<6751789
+chineseocr-data/config/digit/78/66141.jpg	370923±>82624
+chineseocr-data/config/digit/67/57577.jpg	99428242.510
+chineseocr-data/config/digit/53/47125.jpg	26124.m²=113
+chineseocr-data/config/digit/1/6988.jpg	55127℃~8552.59
+chineseocr-data/config/digit/6/11121.jpg	1.50450 mva| 243
+chineseocr-data/config/digit/16/18425.jpg	9682=1.384 8
+chineseocr-data/config/digit/73/62503.jpg	143.8<=214569
+chineseocr-data/config/digit/80/67806.jpg	3692μm<5021
+chineseocr-data/config/digit/55/48847.jpg	7038707 Φ<=7184
+chineseocr-data/config/digit/54/47509.jpg	.398m<9.182 1 3
+chineseocr-data/config/digit/24/24959.jpg	0.3> =2944
+chineseocr-data/config/digit/104/86228.jpg	7695080999
+chineseocr-data/config/digit/92/77041.jpg	..92722 m~ 97.340 9
+chineseocr-data/config/digit/35/33033.jpg	791 2.>0.3
+chineseocr-data/config/digit/72/61586.jpg	.8978.5>86827
+chineseocr-data/config/digit/94/78671.jpg	.97185Φ≈80.83
+chineseocr-data/config/digit/3/1259.jpg	2329ρ=.3 6
+chineseocr-data/config/digit/45/40575.jpg	13.695mva2.9426
+chineseocr-data/config/digit/88/74214.jpg	772бb>=756
+chineseocr-data/config/digit/100/83063.jpg	5639mva0342
+chineseocr-data/config/digit/22/23118.jpg	087588 <=178169
+chineseocr-data/config/digit/17/19113.jpg	8703 04бb<79 0155
+chineseocr-data/config/digit/82/69590.jpg	8760.mva≠452.
+chineseocr-data/config/digit/23/24095.jpg	734.㎡=7.00
+chineseocr-data/config/digit/1/6936.jpg	6.342Φ≈67105.
+chineseocr-data/config/digit/77/65491.jpg	.54446<=.557
+chineseocr-data/config/digit/57/50318.jpg	3 6 54m≠52.
+chineseocr-data/config/digit/25/25275.jpg	02208.5≥899
+chineseocr-data/config/digit/106/87845.jpg	...2kva≤0.34189
+chineseocr-data/config/digit/85/71720.jpg	7678бb<6..78 1.
+chineseocr-data/config/digit/9/3713.jpg	72.≤.549449
+chineseocr-data/config/digit/7/11633.jpg	298±=222364.
+chineseocr-data/config/digit/61/52903.jpg	5171m² >=140..2.
+chineseocr-data/config/digit/57/49863.jpg	.052874≥9592.7
+chineseocr-data/config/digit/84/70597.jpg	58774m²|708
+chineseocr-data/config/digit/64/55561.jpg	479kva|32.
+chineseocr-data/config/digit/98/81920.jpg	47 1μm≈7638.1
+chineseocr-data/config/digit/2/935.jpg	9869mva >8.2
+chineseocr-data/config/digit/51/45732.jpg	9445 ..<= 488.7
+chineseocr-data/config/digit/33/31612.jpg	408514m²=50476
+chineseocr-data/config/digit/17/19349.jpg	8936m²~874
+chineseocr-data/config/digit/114/93802.jpg	4017m²<=737948 .
+chineseocr-data/config/digit/67/57595.jpg	63267b=615976
+chineseocr-data/config/digit/53/47122.jpg	9..5036350
+chineseocr-data/config/digit/89/74989.jpg	.798<=033806
+chineseocr-data/config/digit/31/29885.jpg	9004653=4792 6
+chineseocr-data/config/digit/24/24757.jpg	2512ρ<=858784.
+chineseocr-data/config/digit/64/55866.jpg	3558±83824
+chineseocr-data/config/digit/108/89525.jpg	28551m9564
+chineseocr-data/config/digit/10/13921.jpg	375 64>= 033
+chineseocr-data/config/digit/38/35296.jpg	0 47 |29869
+chineseocr-data/config/digit/85/72083.jpg	541mva433
+chineseocr-data/config/digit/98/81890.jpg	6.85.~8162080
+chineseocr-data/config/digit/26/26078.jpg	.9989mva<5.11126
+chineseocr-data/config/digit/71/61038.jpg	2.8.33>=0762
+chineseocr-data/config/digit/82/69741.jpg	836615≤46516 64
+chineseocr-data/config/digit/0/48.jpg	001780Φ>8735 1
+chineseocr-data/config/digit/32/30484.jpg	821768±<=05450.1
+chineseocr-data/config/digit/83/70530.jpg	7686>0598471
+chineseocr-data/config/digit/29/28756.jpg	.46 93.kva<=9489.06
+chineseocr-data/config/digit/0/6434.jpg	6998 46>=252699
+chineseocr-data/config/digit/6/2700.jpg	68.51Φ|8325
+chineseocr-data/config/digit/88/74436.jpg	562031175
+chineseocr-data/config/digit/98/81639.jpg	9 512587> =450374
+chineseocr-data/config/digit/7/11641.jpg	30.62бb<=.8495
+chineseocr-data/config/digit/111/92158.jpg	283±>=87787
+chineseocr-data/config/digit/109/90141.jpg	3343≤138
+chineseocr-data/config/digit/39/36195.jpg	549450±≈9145.
+chineseocr-data/config/digit/37/34473.jpg	403 6Φ≥.5457.4
+chineseocr-data/config/digit/13/15802.jpg	008408ρ≈  532
+chineseocr-data/config/digit/65/56278.jpg	6458| 91775.9
+chineseocr-data/config/digit/101/84293.jpg	39152бb≤768
+chineseocr-data/config/digit/26/26229.jpg	9590839±≥.032023
+chineseocr-data/config/digit/111/92055.jpg	429397>43 23368
+chineseocr-data/config/digit/88/73976.jpg	96502.1kva>=495563
+chineseocr-data/config/digit/82/69675.jpg	0.9m²=50.
+chineseocr-data/config/digit/24/24336.jpg	55.7.1±≥1900
+chineseocr-data/config/digit/45/41202.jpg	4 5482 86 ㎡≠29630 83
+chineseocr-data/config/digit/3/8681.jpg	48677±=81.
+chineseocr-data/config/digit/7/11585.jpg	..23=6988
+chineseocr-data/config/digit/24/24401.jpg	90873~249
+chineseocr-data/config/digit/53/47346.jpg	8700294kva|.39
+chineseocr-data/config/digit/44/40425.jpg	858204mva2228479
+chineseocr-data/config/digit/103/85793.jpg	4291.7≠356775
+chineseocr-data/config/digit/98/81915.jpg	323℃≤9109652
+chineseocr-data/config/digit/74/63346.jpg	8 862mva|.6.0447
+chineseocr-data/config/digit/9/13037.jpg	640 11бb~96.
+chineseocr-data/config/digit/5/10266.jpg	41903153
+chineseocr-data/config/digit/57/49962.jpg	26236m²8415
+chineseocr-data/config/digit/70/60361.jpg	.490 6.kva~392530
+chineseocr-data/config/digit/21/22054.jpg	6763376ρ≈043201
+chineseocr-data/config/digit/60/52593.jpg	91 49 1~677550
+chineseocr-data/config/digit/75/63828.jpg	.184336mva>=89837
+chineseocr-data/config/digit/99/82352.jpg	.01=6.73
+chineseocr-data/config/digit/32/30892.jpg	233kva<=8 832
+chineseocr-data/config/digit/94/79007.jpg	3204kva≤43520
+chineseocr-data/config/digit/75/64221.jpg	47584kva<=9148
+chineseocr-data/config/digit/103/85895.jpg	787795 3kva≠.61.
+chineseocr-data/config/digit/50/44870.jpg	.307~560527
+chineseocr-data/config/digit/57/49892.jpg	616114kva|6208.16
+chineseocr-data/config/digit/111/91947.jpg	1.381730 905 9
+chineseocr-data/config/digit/37/34619.jpg	6.2~.461149
+chineseocr-data/config/digit/112/92642.jpg	636329kva>2362390
+chineseocr-data/config/digit/71/60968.jpg	28238 <=1765.7.
+chineseocr-data/config/digit/83/70236.jpg	5 1912~7313
+chineseocr-data/config/digit/7/11322.jpg	9023kva~838
+chineseocr-data/config/digit/50/44660.jpg	4396kva|298940
+chineseocr-data/config/digit/115/94875.jpg	.9991ρ≥647.8
+chineseocr-data/config/digit/48/43283.jpg	59965.8m83 072 7
+chineseocr-data/config/digit/32/31103.jpg	9789>=900.
+chineseocr-data/config/digit/41/38063.jpg	2846бb~1031642
+chineseocr-data/config/digit/77/65736.jpg	24901<=1275099
+chineseocr-data/config/digit/109/90305.jpg	29324869
+chineseocr-data/config/digit/91/76261.jpg	43553 бb≈4978.56
+chineseocr-data/config/digit/112/92620.jpg	596kva <=10.2
+chineseocr-data/config/digit/112/92892.jpg	85 517±<=8 90
+chineseocr-data/config/digit/32/30867.jpg	75 .2187kva113 77
+chineseocr-data/config/digit/23/24086.jpg	1475.5Φ>8 95953
+chineseocr-data/config/digit/3/1248.jpg	8020бb>=2.0.2
+chineseocr-data/config/digit/109/90215.jpg	9570>446
+chineseocr-data/config/digit/14/5402.jpg	202>2000
+chineseocr-data/config/digit/1/6695.jpg	354.4m ²~090..08
+chineseocr-data/config/digit/27/27252.jpg	89101.<=0004513
+chineseocr-data/config/digit/33/31798.jpg	602262 1±<=26186
+chineseocr-data/config/digit/46/41335.jpg	5809593B165
+chineseocr-data/config/digit/40/36690.jpg	857853ρ≠8139438
+chineseocr-data/config/digit/48/43015.jpg	1934≤29778
+chineseocr-data/config/digit/106/88302.jpg	78745~ .55
+chineseocr-data/config/digit/89/74679.jpg	573183.
+chineseocr-data/config/digit/1/6723.jpg	9221m²≠0741
+chineseocr-data/config/digit/25/25559.jpg	8. 77±<=44381
+chineseocr-data/config/digit/94/78347.jpg	13091mva=04144. 6
+chineseocr-data/config/digit/23/23807.jpg	749603бb=83275.
+chineseocr-data/config/digit/25/25158.jpg	6963 <984
+chineseocr-data/config/digit/6/2510.jpg	77.0.5mv a~95.82
+chineseocr-data/config/digit/17/18903.jpg	0.01m|924
+chineseocr-data/config/digit/0/129.jpg	790385. <731157
+chineseocr-data/config/digit/40/36872.jpg	75482℃>562 4524
+chineseocr-data/config/digit/93/78174.jpg	9986.50±>0482
+chineseocr-data/config/digit/52/46274.jpg	6.3 697μm>=145538 .
+chineseocr-data/config/digit/36/33864.jpg	495990≠.10211
+chineseocr-data/config/digit/25/25159.jpg	.398 kva>= .63.3 5
+chineseocr-data/config/digit/62/53823.jpg	.1927b|44.565
+chineseocr-data/config/digit/59/51721.jpg	4..4Φ>1197823
+chineseocr-data/config/digit/20/21573.jpg	348354±<=3363356
+chineseocr-data/config/digit/115/95173.jpg	5845616m~56.0.01
+chineseocr-data/config/digit/59/51321.jpg	38440.0 7
+chineseocr-data/config/digit/3/1404.jpg	.80Φ=956.95
+chineseocr-data/config/digit/72/61976.jpg	3709kva=969
+chineseocr-data/config/digit/15/17870.jpg	9139887<=2206
+chineseocr-data/config/digit/25/25785.jpg	411226μm≠445
+chineseocr-data/config/digit/13/4960.jpg	6838ρ<=6955
+chineseocr-data/config/digit/76/64563.jpg	772.00kva>.921
+chineseocr-data/config/digit/109/90203.jpg	94 7985kva>= 2750178
+chineseocr-data/config/digit/95/79416.jpg	8140 211℃≥54.6786
+chineseocr-data/config/digit/0/6461.jpg	5168018m²|6 612
+chineseocr-data/config/digit/20/21348.jpg	8.259℃>=71726
+chineseocr-data/config/digit/98/81549.jpg	075. бb≤ 667
+chineseocr-data/config/digit/10/14236.jpg	78464<=0410.
+chineseocr-data/config/digit/22/22962.jpg	32..mva≤228
+chineseocr-data/config/digit/15/17594.jpg	70655Φ~284
+chineseocr-data/config/digit/79/67102.jpg	1450℃≈33976
+chineseocr-data/config/digit/71/60690.jpg	340.ρ≠9085
+chineseocr-data/config/digit/64/55610.jpg	.1986.m²<224419
+chineseocr-data/config/digit/14/5545.jpg	1821139±<=.610
+chineseocr-data/config/digit/23/24188.jpg	2.68821  m²≤788
+chineseocr-data/config/digit/99/82398.jpg	05901mva>=31 16
+chineseocr-data/config/digit/65/56562.jpg	0021m~1258.
+chineseocr-data/config/digit/86/72565.jpg	3621679~51392.
+chineseocr-data/config/digit/54/48079.jpg	7100052±≤4974317
+chineseocr-data/config/digit/3/8140.jpg	321.бb|.3.1.5
+chineseocr-data/config/digit/6/10997.jpg	0268m6 66
+chineseocr-data/config/digit/46/41975.jpg	3055920±>944
+chineseocr-data/config/digit/7/3023.jpg	45360бb<=6737
+chineseocr-data/config/digit/20/21542.jpg	345.Φ≈298
+chineseocr-data/config/digit/45/40921.jpg	5.32.2бb>973
+chineseocr-data/config/digit/13/5143.jpg	3373.kva≈.0289
+chineseocr-data/config/digit/30/29116.jpg	23557 m=1848659
+chineseocr-data/config/digit/64/55269.jpg	6101Φ=9586
+chineseocr-data/config/digit/104/86109.jpg	2.2050 <13020
+chineseocr-data/config/digit/78/66080.jpg	4 954℃<=26 34 8
+chineseocr-data/config/digit/85/71802.jpg	609 Φ<781
+chineseocr-data/config/digit/101/83915.jpg	252±≥696
+chineseocr-data/config/digit/54/47765.jpg	0016265±<=6381
+chineseocr-data/config/digit/100/83484.jpg	440.90..96
+chineseocr-data/config/digit/15/17862.jpg	009mva>=99173
+chineseocr-data/config/digit/61/52917.jpg	9684.72±>=0560970
