@@ -48,6 +48,16 @@ from utils.dataset import ImageDataset, AlignCollate
 from models.handwritten_ctr_model import hctr_model
 from utils.ctc_codec import ctc_codec
 
+# 字符集合位置
+DATA_CHARS_FILE_PATH = './data/handwritten_ctr_data/chars_list.txt'
+
+device = (
+    "cuda"
+    if torch.cuda.is_available()
+    else "mps"
+    if torch.backends.mps.is_available()
+    else "cpu"
+)
 
 def build_argparser():
     parser = argparse.ArgumentParser(description='PyTorch OCR textline Training')
@@ -55,8 +65,12 @@ def build_argparser():
     args.add_argument('-m', '--model-type', type=str, required=True,
                       choices=['hctr'],
                       help='target model for different languages and scenarios')
-    args.add_argument('-d', '--data', metavar='DIR',
+    args.add_argument('-d', '--data', metavar='DIR', required=True,
                       help='path to dataset')
+    args.add_argument('-dl', '--data_label_path', metavar='DIR', required=True,
+                      help='path to data label path')
+    args.add_argument('-dlf', '--data_file_name', type=str, required=True,
+                      help='data label file name')
     args.add_argument('-j', '--workers', default=4, type=int, metavar='N',
                       help='number of data loading workers')
     args.add_argument('-b', '--batch-size', default=8, type=int, metavar='N',
@@ -118,37 +132,13 @@ def main():
                       'from checkpoints.')
 
     ngpus_per_node = torch.cuda.device_count()
-    if args.gpu is not None:
-        args.multiprocessing_distributed = False
-        warnings.warn('You have chosen a specific GPU. This will completely '
-                      'disable multiprocessing distributed training.')
-    elif ngpus_per_node <= 1:
-        raise EnvironmentError(
-            'No enough GPUs for multiprocessing distributed training.'
-        )
-    else:
-        args.multiprocessing_distributed = True
-
-    if args.multiprocessing_distributed:
-        # Since we have ngpus_per_node processes per node, the total world_size
-        # needs to be adjusted accordingly
-        args.world_size = ngpus_per_node * args.world_size
-        # Use torch.multiprocessing.spawn to launch distributed processes: the
-        # main_worker process function
-        mp.spawn(main_worker, nprocs=ngpus_per_node, args=(ngpus_per_node, args))
-    else:
-        # Simply call main_worker function
-        main_worker(args.gpu, ngpus_per_node, args)
-
+    
+    main_worker(args.gpu, ngpus_per_node, args)
 
 def main_worker(gpu, ngpus_per_node, args):
     global best_acc
     global codec
 
-    # NOTE: Only support Single-Node with Multi-GPUs
-    if args.multiprocessing_distributed:
-        os.environ['MASTER_ADDR'] = 'localhost'
-        os.environ['MASTER_PORT'] = '12355'
     args.gpu = gpu
 
     #######################################################################
@@ -180,34 +170,13 @@ def main_worker(gpu, ngpus_per_node, args):
 
     #######################################################################
     # Initialize distributed training
-    if args.multiprocessing_distributed:
-        # For multiprocessing distributed training, rank needs to be the
-        # global rank among all the processes
-        args.rank = args.rank * ngpus_per_node + gpu
-        dist.init_process_group(backend=args.dist_backend,
-                                init_method=args.dist_url,
-                                world_size=args.world_size,
-                                rank=args.rank)
-        print('GPU: {} initialized done.'.format(args.gpu))
-        torch.cuda.set_device(args.gpu)
-        model.cuda(args.gpu)
-        # Initialize Amp.
-        model, optimizer = amp.initialize(model, optimizer,
-                                          opt_level='O2',
-                                          keep_batchnorm_fp32=True,
-                                          loss_scale=1.0)
-        args.batch_size = int(args.batch_size / ngpus_per_node)
-        args.workers = int((args.workers + ngpus_per_node - 1) / ngpus_per_node)
-        #model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[args.gpu])
-        model = DDP(model, delay_allreduce=True) # apex
-    else: # Single-GPU
-        torch.cuda.set_device(args.gpu)
-        model = model.cuda(args.gpu)
-        # Initialize Amp.
-        model, optimizer = amp.initialize(model, optimizer,
-                                          opt_level='O2',
-                                          keep_batchnorm_fp32=True,
-                                          loss_scale=1.0)
+    
+    model = model.to(device)
+    # Initialize Amp.
+    model, optimizer = amp.initialize(model, optimizer,
+                                        opt_level='O2',
+                                        keep_batchnorm_fp32=True,
+                                        loss_scale=1.0)
 
     #######################################################################
     # optionally resume from a checkpoint
@@ -219,10 +188,7 @@ def main_worker(gpu, ngpus_per_node, args):
             )
             args.start_epoch = checkpoint['epoch']
             best_acc = checkpoint['best_acc']
-            if args.multiprocessing_distributed:
-                model.module.load_state_dict(checkpoint['state_dict'])
-            else:
-                model.load_state_dict(checkpoint['state_dict'])
+            model.load_state_dict(checkpoint['state_dict'])
             optimizer.load_state_dict(checkpoint['optimizer'])
             print('=> loaded checkpoint: {} (epoch {})'
                   .format(args.resume, checkpoint['epoch']))
@@ -235,14 +201,14 @@ def main_worker(gpu, ngpus_per_node, args):
     # Data loading code
     AlignCollate_train = AlignCollate(imgH=args.img_height, PAD=args.PAD)
     train_dataset = ImageDataset(data_path=args.data,
+                                 data_label_path=args.data_label_path,
+                                 data_file_name=args.data_file_name,
                                  img_shape=(1, args.img_height),
                                  phase='train',
                                  batch_size=args.batch_size)
-    if args.multiprocessing_distributed:
-        train_sampler = \
-            torch.utils.data.distributed.DistributedSampler(train_dataset)
-    else:
-        train_sampler = None
+   
+    train_sampler = None
+
     train_loader = torch.utils.data.DataLoader(train_dataset,
                                                batch_size=args.batch_size,
                                                shuffle=(train_sampler is None),
@@ -253,9 +219,12 @@ def main_worker(gpu, ngpus_per_node, args):
 
     AlignCollate_val = AlignCollate(imgH=args.img_height, PAD=args.PAD)
     val_dataset = ImageDataset(data_path=args.data,
+                               data_label_path=args.data_label_path,
+                               data_file_name=args.data_file_name,
                                img_shape=(1, args.img_height),
                                phase='val',
                                batch_size=args.batch_size)
+    
     val_loader = torch.utils.data.DataLoader(val_dataset,
                                              batch_size=args.batch_size,
                                              shuffle=False,
@@ -285,8 +254,7 @@ def main_worker(gpu, ngpus_per_node, args):
     # train
     val_acc = 0
     for epoch in range(args.start_epoch, args.epochs):
-        if args.multiprocessing_distributed:
-            train_sampler.set_epoch(epoch)
+
         adjust_learning_rate(optimizer, epoch, args)
 
         # train for one epoch
@@ -303,9 +271,7 @@ def main_worker(gpu, ngpus_per_node, args):
 
         save_checkpoint({
             'epoch': epoch + 1,
-            'state_dict': model.module.state_dict() if
-                          args.multiprocessing_distributed else
-                          model.state_dict(),
+            'state_dict': model.state_dict(),
             'best_acc': best_acc,
             'optimizer' : optimizer.state_dict(),
         }, args, is_best, is_val=False)
@@ -506,7 +472,7 @@ def get_model_info(args):
             'Model type: {} not supported'.format(args.model_type)
         )
 
-    chars_list_file = os.path.join(args.data + 'chars_list.txt')
+    chars_list_file = os.path.join(DATA_CHARS_FILE_PATH)
     with open(chars_list_file, 'r') as f:
         for line in f.readlines():
             line = line.strip('\n')
