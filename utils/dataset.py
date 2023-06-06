@@ -47,17 +47,16 @@ class ImageDataset(Dataset):
 
     def pil_loader(self, path):
         with open(path, 'rb') as f:
-            # TODO: convertion input from other format
-            # assume all the input are 8-bit grayscale images
             img = Image.open(f)
-            img = np.array(img)
+            img = img.convert('L')  # 转为灰度图像
 
-            height, width = img.shape[:2]
-            ratio = self.img_h/height
+            height, width = img.size
+            ratio = self.img_h / height
             new_width = int(width * ratio)
-            img_resize = cv2.resize(img, (new_width, self.img_h),
-                                    interpolation=cv2.INTER_AREA)
-            img_resize = img_resize if self.img_c == 3 else img_resize[:, :, np.newaxis]
+            img_resize = img.resize((new_width, self.img_h), Image.ANTIALIAS)
+
+            img_resize = np.array(img_resize)[:, :, np.newaxis]  # 添加额外的维度
+
             return img_resize
 
 

@@ -29,21 +29,6 @@ import torch.optim
 import torch.multiprocessing as mp
 import torch.utils.data
 
-try:
-    from apex.parallel import DistributedDataParallel as DDP
-    from apex import amp
-except ImportError:
-    raise ImportError(
-        'Please install apex from https://www.github.com/nvidia/apex.'
-    )
-
-try:
-    from warpctc_pytorch import CTCLoss
-except ImportError:
-    raise ImportError(
-        'Please install warpctc from https://github.com/SeanNaren/warp-ctc.'
-    )
-
 from utils.dataset import ImageDataset, AlignCollate
 from models.handwritten_ctr_model import hctr_model
 from utils.ctc_codec import ctc_codec
@@ -121,21 +106,10 @@ codec = None
 def main():
     args = build_argparser().parse_args()
 
-    if args.seed is not None:
-        random.seed(args.seed)
-        torch.manual_seed(args.seed)
-        cudnn.deterministic = True
-        warnings.warn('You have chosen to seed training. '
-                      'This will turn on the CUDNN deterministic setting, '
-                      'which can slow down your training considerably! '
-                      'You may see unexpected behavior when restarting '
-                      'from checkpoints.')
+    main_worker(args.gpu, args)
 
-    ngpus_per_node = torch.cuda.device_count()
-    
-    main_worker(args.gpu, ngpus_per_node, args)
+def main_worker(gpu, args):
 
-def main_worker(gpu, ngpus_per_node, args):
     global best_acc
     global codec
 
@@ -150,12 +124,11 @@ def main_worker(gpu, ngpus_per_node, args):
     args.PAD          = model.PAD
     print(model)
 
+
+    codec = ctc_codec(characters)
+
     # criterion
-    if args.pred == 'CTC':
-        codec = ctc_codec(characters)
-        criterion = CTCLoss().cuda(args.gpu)
-    else:
-        raise ValueError('not expected prediction.')
+    criterion = nn.CTCLoss().to(device)
 
     # optimizer
     if args.optimizer == 'SGD':
@@ -172,11 +145,6 @@ def main_worker(gpu, ngpus_per_node, args):
     # Initialize distributed training
     
     model = model.to(device)
-    # Initialize Amp.
-    model, optimizer = amp.initialize(model, optimizer,
-                                        opt_level='O2',
-                                        keep_batchnorm_fp32=True,
-                                        loss_scale=1.0)
 
     #######################################################################
     # optionally resume from a checkpoint
@@ -234,6 +202,8 @@ def main_worker(gpu, ngpus_per_node, args):
 
     AlignCollate_test = AlignCollate(imgH=args.img_height, PAD=args.PAD)
     test_dataset = ImageDataset(data_path=args.data,
+                                data_label_path=args.data_label_path,
+                                data_file_name=args.data_file_name,
                                 img_shape=(1, args.img_height),
                                 phase='test',
                                 batch_size=args.batch_size)
@@ -292,25 +262,23 @@ def train(train_loader, val_loader, model, criterion, optimizer,
         # measure data loading time
         data_time.update(time.time() - end)
 
-        input = input.cuda(args.gpu, non_blocking=True)
+        input = input.to(device, non_blocking=True)
         target_indexs, target_length = codec.encode(target)
         preds = model(input) # preds: WBD
         preds_sizes = torch.IntTensor([preds.size(0)] * args.batch_size)
-        loss = criterion(preds,
-                         torch.from_numpy(target_indexs),
-                         preds_sizes,
-                         torch.from_numpy(target_length))
+        loss = criterion(preds.permute(2, 0, 1).to(device),
+                torch.from_numpy(target_indexs).long().to(device),
+                preds_sizes.to(device),
+                torch.from_numpy(target_length).long().to(device))
 
         # TODO: how about inf loss ?
-        if math.isnan(loss.item()):
+        if torch.isnan(loss):
             raise ValueError('Stop at NaN loss.')
         losses.update(loss.item(), input.size(0))
 
         # compute gradient and do optimization step
         optimizer.zero_grad()
-        #loss.backward()
-        with amp.scale_loss(loss, optimizer) as scaled_loss:
-            scaled_loss.backward()
+        loss.backward()
         optimizer.step()
 
         # measure elapsed time
@@ -334,9 +302,7 @@ def train(train_loader, val_loader, model, criterion, optimizer,
             val_best_acc = max(val_acc, val_best_acc)
             save_checkpoint({
                 'epoch': epoch + 1,
-                'state_dict': model.module.state_dict() if
-                              args.multiprocessing_distributed else
-                              model.state_dict(),
+                'state_dict': model.state_dict(),
                 'best_acc': val_best_acc,
                 'optimizer' : optimizer.state_dict(),
             }, args, is_best, is_val=True)
@@ -348,7 +314,6 @@ def train(train_loader, val_loader, model, criterion, optimizer,
         end = time.time()
 
     return val_best_acc
-
 
 def test(data_loader, model, args):
     batch_time = AverageMeter()
@@ -366,7 +331,7 @@ def test(data_loader, model, args):
             # measure data loading time
             data_time.update(time.time() - end)
 
-            input = input.cuda(args.gpu, non_blocking=True)
+            input = input.to(device, non_blocking=True)
             preds = model(input)
             result = codec.decode(preds.cpu().detach().numpy())
 
