@@ -39,8 +39,8 @@ DATA_CHARS_FILE_PATH = './data/handwritten_ctr_data/chars_list.txt'
 device = (
     "cuda"
     if torch.cuda.is_available()
-    else "mps"
-    if torch.backends.mps.is_available()
+    # else "mps"
+    # if torch.backends.mps.is_available()
     else "cpu"
 )
 
@@ -261,12 +261,13 @@ def train(train_loader, val_loader, model, criterion, optimizer,
     for i, (input, target) in enumerate(train_loader):
         # measure data loading time
         data_time.update(time.time() - end)
-
+        print(f"input:{input}")
+        print(f"target:{target}")
         input = input.to(device, non_blocking=True)
         target_indexs, target_length = codec.encode(target)
         preds = model(input) # preds: WBD
         preds_sizes = torch.IntTensor([preds.size(0)] * args.batch_size)
-        loss = criterion(preds.permute(2, 0, 1).to(device),
+        loss = criterion(preds,
                 torch.from_numpy(target_indexs).long().to(device),
                 preds_sizes.to(device),
                 torch.from_numpy(target_length).long().to(device))

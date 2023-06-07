@@ -48,16 +48,31 @@ class ImageDataset(Dataset):
     def pil_loader(self, path):
         with open(path, 'rb') as f:
             img = Image.open(f)
-            img = img.convert('L')  # 转为灰度图像
+            img = np.array(img)
 
-            height, width = img.size
-            ratio = self.img_h / height
+            if len(img.shape) == 2:
+                img = img[:, :, np.newaxis]
+            
+            # if the image has alpha channel, remove it
+            if img.shape[2] == 4:
+                img = img[:, :, :3]
+
+            height, width = img.shape[:2]
+            ratio = self.img_h/height
             new_width = int(width * ratio)
-            img_resize = img.resize((new_width, self.img_h), Image.ANTIALIAS)
+            img_resize = cv2.resize(img, (new_width, self.img_h), interpolation=cv2.INTER_AREA)
 
-            img_resize = np.array(img_resize)[:, :, np.newaxis]  # 添加额外的维度
+            # Ensure that grayscale images always have three dimensions
+            if img_resize.ndim == 2:
+                img_resize = img_resize[:, :, np.newaxis]
+
+            # If we want a grayscale image but the image has three channels, convert it to grayscale
+            if self.img_c == 1 and img_resize.shape[2] == 3:
+                img_resize = cv2.cvtColor(img_resize, cv2.COLOR_BGR2GRAY)
+                img_resize = img_resize[:, :, np.newaxis]
 
             return img_resize
+
 
 
 # to be removed
