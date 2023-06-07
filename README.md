@@ -152,3 +152,5 @@ If you find this code useful in your research, please consider citing:
 	      publisher  = {arXiv},
 	      Year = {2020}
     }
+
+python main.py -m hctr -d /kaggle/input/handwrite/train_data -dl ./train-data-label/HWDB  -dlf HWDB2.0_label -b 64 -pf 100 -lr 1e-4

@@ -8,8 +8,8 @@ def test_train():
     testargs = ["main",
                 "-m", "hctr",
                 "-d", "/Users/peiyandong/Documents/code/ai/hw_train_data",
-                "-dl", "./train-data-label/chineseocr",
-                "-dlf", "rec_digit_label",
+                "-dl", "./train-data-label/HWDB",
+                "-dlf", "HWDB2.0_label",
                 "-b", "4",
                 "-pf", "100",
                 "-lr", "1e-4"
