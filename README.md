@@ -154,3 +154,8 @@ If you find this code useful in your research, please consider citing:
     }
 
 python main.py -m hctr -d /kaggle/input/handwrite/train_data -dl ./train-data-label/HWDB  -dlf HWDB2.0_label -b 64 -pf 100 -lr 1e-4
+
+
+python main.py -m hctr -d /Users/peiyandong/Documents/code/ai/hw_train_data -dl ./train-data-label/HWDB  -dlf HWDB2.0_label -b 2 -pf 10 -lr 1e-4
+
+python main.py -m hctr -d /Users/peiyandong/Documents/code/ai/hw_train_data -dl ./train-data-label/chineseocr  -dlf rec_digit_label -b 4 -pf 10 -lr 1e-6

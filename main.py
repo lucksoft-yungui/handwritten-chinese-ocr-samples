@@ -10,6 +10,9 @@ All rights reserved.
 
 
 ''' Built upon https://github.com/pytorch/examples/blob/master/imagenet/main.py with modification. '''
+
+
+# 字符集合位置
 import argparse
 import os
 import random
@@ -19,7 +22,6 @@ import warnings
 import sys
 import math
 import editdistance
-
 import torch
 import torch.nn as nn
 import torch.nn.parallel
@@ -28,12 +30,9 @@ import torch.distributed as dist
 import torch.optim
 import torch.multiprocessing as mp
 import torch.utils.data
-
 from utils.dataset import ImageDataset, AlignCollate
 from models.handwritten_ctr_model import hctr_model
 from utils.ctc_codec import ctc_codec
-
-# 字符集合位置
 DATA_CHARS_FILE_PATH = './data/handwritten_ctr_data/chars_list.txt'
 
 device = (
@@ -44,8 +43,10 @@ device = (
     else "cpu"
 )
 
+
 def build_argparser():
-    parser = argparse.ArgumentParser(description='PyTorch OCR textline Training')
+    parser = argparse.ArgumentParser(
+        description='PyTorch OCR textline Training')
     args = parser.add_argument_group('Options')
     args.add_argument('-m', '--model-type', type=str, required=True,
                       choices=['hctr'],
@@ -103,10 +104,12 @@ def build_argparser():
 best_acc = 0
 codec = None
 
+
 def main():
     args = build_argparser().parse_args()
 
     main_worker(args.gpu, args)
+
 
 def main_worker(gpu, args):
 
@@ -118,17 +121,16 @@ def main_worker(gpu, args):
     #######################################################################
     # create model specific info
     model, characters = get_model_info(args)
-    args.img_height   = model.img_height
-    args.pred         = model.pred
-    args.optimizer    = model.optimizer
-    args.PAD          = model.PAD
+    args.img_height = model.img_height
+    args.pred = model.pred
+    args.optimizer = model.optimizer
+    args.PAD = model.PAD
     print(model)
-
 
     codec = ctc_codec(characters)
 
     # criterion
-    criterion = nn.CTCLoss().to(device)
+    criterion = nn.CTCLoss(zero_infinity=True).to(device)
 
     # optimizer
     if args.optimizer == 'SGD':
@@ -143,7 +145,7 @@ def main_worker(gpu, args):
 
     #######################################################################
     # Initialize distributed training
-    
+
     model = model.to(device)
 
     #######################################################################
@@ -174,7 +176,7 @@ def main_worker(gpu, args):
                                  img_shape=(1, args.img_height),
                                  phase='train',
                                  batch_size=args.batch_size)
-   
+
     train_sampler = None
 
     train_loader = torch.utils.data.DataLoader(train_dataset,
@@ -192,7 +194,7 @@ def main_worker(gpu, args):
                                img_shape=(1, args.img_height),
                                phase='val',
                                batch_size=args.batch_size)
-    
+
     val_loader = torch.utils.data.DataLoader(val_dataset,
                                              batch_size=args.batch_size,
                                              shuffle=False,
@@ -223,9 +225,10 @@ def main_worker(gpu, args):
     #######################################################################
     # train
     val_acc = 0
+    # torch.autograd.set_detect_anomaly(True)
     for epoch in range(args.start_epoch, args.epochs):
 
-        adjust_learning_rate(optimizer, epoch, args)
+        # adjust_learning_rate(optimizer, epoch, args)
 
         # train for one epoch
         val_acc = train(train_loader, val_loader, model,
@@ -243,12 +246,13 @@ def main_worker(gpu, args):
             'epoch': epoch + 1,
             'state_dict': model.state_dict(),
             'best_acc': best_acc,
-            'optimizer' : optimizer.state_dict(),
+            'optimizer': optimizer.state_dict(),
         }, args, is_best, is_val=False)
 
 
 def train(train_loader, val_loader, model, criterion, optimizer,
           epoch, args, val_acc):
+
     batch_time = AverageMeter()
     data_time = AverageMeter()
     losses = AverageMeter()
@@ -261,20 +265,28 @@ def train(train_loader, val_loader, model, criterion, optimizer,
     for i, (input, target) in enumerate(train_loader):
         # measure data loading time
         data_time.update(time.time() - end)
-        print(f"input:{input}")
-        print(f"target:{target}")
+        # print(f"target:{target}")
         input = input.to(device, non_blocking=True)
         target_indexs, target_length = codec.encode(target)
-        preds = model(input) # preds: WBD
+        # print(f"isnan:{torch.isnan(input).any()}")
+        # print(f"isfinite:{torch.isfinite(input).all()}")
+        preds = model(input)  # preds: WBD
         preds_sizes = torch.IntTensor([preds.size(0)] * args.batch_size)
-        loss = criterion(preds,
-                torch.from_numpy(target_indexs).long().to(device),
-                preds_sizes.to(device),
-                torch.from_numpy(target_length).long().to(device))
 
-        # TODO: how about inf loss ?
+        # print(preds_sizes)
+        # print(preds)
+
+        # print(torch.from_numpy(target_length))
+        # print(torch.from_numpy(target_indexs))
+
+        loss = criterion(preds,
+                         torch.from_numpy(target_indexs).to(device),
+                         preds_sizes.to(device),
+                         torch.from_numpy(target_length).to(device))
+
         if torch.isnan(loss):
             raise ValueError('Stop at NaN loss.')
+            
         losses.update(loss.item(), input.size(0))
 
         # compute gradient and do optimization step
@@ -294,7 +306,9 @@ def train(train_loader, val_loader, model, criterion, optimizer,
                       epoch, i, len(train_loader), batch_time=batch_time,
                       data_time=data_time, loss=losses))
             print('TRU {}'.format(target[0]))
+            print(f'TRU LEN {torch.from_numpy(target_length)}')
             print('PRE {}'.format(result[0]))
+            print(f'PRE LEN {preds_sizes}')
 
         # validate during epoch
         if (i > 0) and (i % args.val_freq == 0):
@@ -305,7 +319,7 @@ def train(train_loader, val_loader, model, criterion, optimizer,
                 'epoch': epoch + 1,
                 'state_dict': model.state_dict(),
                 'best_acc': val_best_acc,
-                'optimizer' : optimizer.state_dict(),
+                'optimizer': optimizer.state_dict(),
             }, args, is_best, is_val=True)
 
             # switch to train mode
@@ -315,6 +329,7 @@ def train(train_loader, val_loader, model, criterion, optimizer,
         end = time.time()
 
     return val_best_acc
+
 
 def test(data_loader, model, args):
     batch_time = AverageMeter()
@@ -328,7 +343,7 @@ def test(data_loader, model, args):
 
     end = time.time()
     with torch.no_grad():
-        for i, (input, target) in enumerate(data_loader): # test/val_loader
+        for i, (input, target) in enumerate(data_loader):  # test/val_loader
             # measure data loading time
             data_time.update(time.time() - end)
 
@@ -370,7 +385,7 @@ def test(data_loader, model, args):
                           i, len(data_loader), batch_time=batch_time,
                           data_time=data_time, err_rate=err_rate
                       )
-                )
+                      )
 
             # reset time for next iteration
             end = time.time()
@@ -382,7 +397,7 @@ def test(data_loader, model, args):
 def save_checkpoint(state, args, is_best, is_val=False,
                     suffix_name='checkpoint.pth.tar'):
     if not args.multiprocessing_distributed or \
-        (args.multiprocessing_distributed and args.rank == 0):
+            (args.multiprocessing_distributed and args.rank == 0):
         if is_val:
             suffix_name = 'val_' + suffix_name
         current_ckp_name = args.model_type + '_' + suffix_name
@@ -402,6 +417,7 @@ def save_checkpoint(state, args, is_best, is_val=False,
 
 class AverageMeter(object):
     '''Computes and stores the average and current value'''
+
     def __init__(self):
         self.reset()
 
