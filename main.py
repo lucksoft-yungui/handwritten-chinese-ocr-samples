@@ -130,7 +130,7 @@ def main_worker(gpu, args):
     codec = ctc_codec(characters)
 
     # criterion
-    criterion = nn.CTCLoss(zero_infinity=True).to(device)
+    criterion = nn.CTCLoss(zero_infinity=True)
 
     # optimizer
     if args.optimizer == 'SGD':
@@ -280,9 +280,9 @@ def train(train_loader, val_loader, model, criterion, optimizer,
         # print(torch.from_numpy(target_indexs))
 
         loss = criterion(preds,
-                         torch.from_numpy(target_indexs).to(device),
-                         preds_sizes.to(device),
-                         torch.from_numpy(target_length).to(device))
+                         torch.from_numpy(target_indexs),
+                         preds_sizes,
+                         torch.from_numpy(target_length))
 
         if torch.isnan(loss):
             raise ValueError('Stop at NaN loss.')
