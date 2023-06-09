@@ -263,16 +263,23 @@ def train(train_loader, val_loader, model, criterion, optimizer,
 
     end = time.time()
     for i, (input, target) in enumerate(train_loader):
+
+        if torch.isnan(input).any() or not torch.isfinite(input).all():
+            print("input data has nan or infinite!!!")
+            print(f"input isnan:{torch.isnan(input).any()}")
+            print(f"input isfinite:{torch.isfinite(input).all()}")
+            continue
+
         # measure data loading time
         data_time.update(time.time() - end)
         # print(f"target:{target}")
         input = input.to(device, non_blocking=True)
         target_indexs, target_length = codec.encode(target)
-        # print(f"isnan:{torch.isnan(input).any()}")
-        # print(f"isfinite:{torch.isfinite(input).all()}")
         preds = model(input)  # preds: WBD
-        preds_sizes = torch.IntTensor([preds.size(0)] * args.batch_size)
+       
 
+        preds_sizes = torch.IntTensor([preds.size(0)] * args.batch_size)
+        
         # print(preds_sizes)
         # print(preds)
 
@@ -285,6 +292,20 @@ def train(train_loader, val_loader, model, criterion, optimizer,
                          torch.from_numpy(target_length))
 
         if torch.isnan(loss):
+            print(f"pred isnan:{torch.isnan(preds).any()}")
+            print(f"pred isfinite:{torch.isfinite(preds).all()}")
+            print(f'TRU {target}')
+            print(f'TRU LEN {torch.from_numpy(target_length)}')
+            chcode = codec.decode(preds.cpu().detach().numpy())
+            print(f'PRE {chcode}')
+            print(f'PRE LEN {preds_sizes}')
+            
+            for name, param in model.named_parameters():
+                print('name: ', name)
+                print('parameter: ', param)
+                print('gradient: ', param.grad)
+
+
             raise ValueError('Stop at NaN loss.')
             
         losses.update(loss.item(), input.size(0))
@@ -292,6 +313,7 @@ def train(train_loader, val_loader, model, criterion, optimizer,
         # compute gradient and do optimization step
         optimizer.zero_grad()
         loss.backward()
+        torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
         optimizer.step()
 
         # measure elapsed time

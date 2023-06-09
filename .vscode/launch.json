@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Train",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": ["-m", "hctr", 
+                     "-d", "/Users/peiyandong/Documents/code/ai/hw_train_data", 
+                     "-dl", "./train-data-label/chineseocr",
+                     "-dlf", "rec_digit_label",
+                     "-b", "1",
+                     "-pf", "10",
+                     "-lr", "1e-4"]
+        }
+    ]
+}
