@@ -159,7 +159,7 @@ class hctr_model(nn.Module):
         self.PAD = 'NormalizePAD'
         self.optimizer = 'SGD'
         self.pred = 'CTC'
-        self.noutput = 1 + 7373 + 1 # 'blank' of CTC + num of characters + 'unknown'
+        self.noutput = 1 + 57 + 1 # 'blank' of CTC + num of characters + 'unknown'
 
         self.cnn = ResNet(1, 512, BasicBlock, [2, 4, 5, 1])
         self.linear = nn.Linear(2048, self.noutput)
